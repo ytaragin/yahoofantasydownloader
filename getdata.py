@@ -15,8 +15,8 @@ import json
 # https://yahoo-fantasy-node-docs.vercel.app/resource/league/players
 
 
-client_id = 'dj0yJmk9dFJZQlJpNnJHVnZmJnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTJl'
-client_secret = '62797f3a7cda8cee612c0c5d92aeb479c95c7ea0'
+client_id = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+client_secret = 'YYYYYYYYYYYYYYYYYYY'
 
 
 
