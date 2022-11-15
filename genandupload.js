@@ -17,8 +17,8 @@
 // [START sheets_quickstart]
 const fs = require('fs');
 const readline = require('readline');
-const {google} = require('googleapis');
-const {runFlow} = require('./gendata');
+const { google } = require('googleapis');
+const { runFlow } = require('./gendata');
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
@@ -41,9 +41,9 @@ fs.readFile('credentials.json', (err, content) => {
  * @param {function} callback The callback to call with the authorized client.
  */
 function authorize(credentials, callback) {
-  const {client_secret, client_id, redirect_uris} = credentials.installed;
+  const { client_secret, client_id, redirect_uris } = credentials.installed;
   const oAuth2Client = new google.auth.OAuth2(
-      client_id, client_secret, redirect_uris[0]);
+    client_id, client_secret, redirect_uris[0]);
 
   // Check if we have previously stored a token.
   fs.readFile(TOKEN_PATH, (err, token) => {
@@ -90,7 +90,7 @@ function getNewToken(oAuth2Client, callback) {
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
 function listMajors(auth) {
-  const sheets = google.sheets({version: 'v4', auth});
+  const sheets = google.sheets({ version: 'v4', auth });
   sheets.spreadsheets.values.get({
     spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
     range: 'Class Data!A2:E',
@@ -111,52 +111,54 @@ function listMajors(auth) {
 
 
 function transformToSheet(teams) {
-    let titleRow = [""];
-    for (let i = 1; i<=16; i++) {
-        titleRow.push(i);
-    }
-    let scoreRows = Object.values(teams).map( t => [t.name, ...t.scores]);
-    let projectedRows = Object.values(teams).map( t => [t.name, ...t.projected]);
+  let titleRow = [""];
+  for (let i = 1; i <= 16; i++) {
+    titleRow.push(i);
+  }
+  let scoreRows = Object.values(teams).map(t => [t.name, ...t.scores]);
+  let projectedRows = Object.values(teams).map(t => [t.name, ...t.projected]);
 
-    let scores = [titleRow, ...scoreRows];
-    let projected = [titleRow, ...projectedRows];
+  let scores = [titleRow, ...scoreRows];
+  let projected = [titleRow, ...projectedRows];
 
 
-    return {scores, projected};
+  return { scores, projected };
 }
 
 function uploadFile(auth, spreadsheetId, values, range, valueInputOption) {
-    // const spreadsheetId = '1xWI0LE2ePaBf-zRzZSYhEttARLrhEhZGFldp5inSZIE';
-    const sheets = google.sheets({version: 'v4', auth});
-   
-    const resource = {
-       values,
-    };
-   
-    sheets.spreadsheets.values.update({
-       spreadsheetId,
-       range,
-       valueInputOption,
-       resource,
-    }, (err, result) => {
-       if (err) {
-         // Handle error
-         console.log(err);
-       } else {
-         console.log(`Result:`, result.updatedCells);
-       }
-    });
-   
+  // const spreadsheetId = '1xWI0LE2ePaBf-zRzZSYhEttARLrhEhZGFldp5inSZIE';
+  const sheets = google.sheets({ version: 'v4', auth });
+
+  const resource = {
+    values,
+  };
+
+  sheets.spreadsheets.values.update({
+    spreadsheetId,
+    range,
+    valueInputOption,
+    resource,
+  }, (err, result) => {
+    if (err) {
+      // Handle error
+      console.log(err);
+    } else {
+      console.log(`Result:`, result.updatedCells);
+    }
+  });
+
 }
 async function writeData(auth) {
-    let teams = await runFlow();
-    let {scores, projected} = transformToSheet(teams);
+  let teams = await runFlow(2022, 10);
+  let { scores, projected } = transformToSheet(teams);
 
-    const spreadsheetId = '1d2H3ZjtjHVvGKirBBX7wKspjXXI8znp7_QOKxgxv4fQ';
-    uploadFile(auth, spreadsheetId, scores, "Scores!A1:Q13", "USER_ENTERED") 
-    uploadFile(auth, spreadsheetId, projected, "Projected!A1:Q13", "USER_ENTERED") 
-    
-  
+  const spreadsheetId2020 = '1d2H3ZjtjHVvGKirBBX7wKspjXXI8znp7_QOKxgxv4fQ';
+  const spreadsheetId2021 = '19uapsMoF_ihR8hRUKcDWPbZizEE5Cj97fYaFPyM4Yw8';
+  const spreadsheetId2022 = '1A6AFKgjx4ehUukod-NMwAtKnuY7pTcjN0em9zhQ9N1M';
+  uploadFile(auth, spreadsheetId2022, scores, "Scores!A1:Q13", "USER_ENTERED")
+  uploadFile(auth, spreadsheetId2022, projected, "Projected!A1:Q13", "USER_ENTERED")
+
+
 }
 
 // [END sheets_quickstart]

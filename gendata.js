@@ -18,12 +18,12 @@ async function loadFile(name) {
 }
 
 
-async function initData(weeks){
+async function initData(year, weeks){
     let data = {}
-    data.all = await loadFile("data/all.xml");
+    data.all = await loadFile(`data/${year}/${year}.xml`);
     data.weeks = [];
     for (let i = 1; i <=weeks; i++) {
-        let w = await loadFile(`data/week${i}.xml`);
+        let w = await loadFile(`data/${year}/weeks/week${i}.xml`);
         data.weeks.push(w );
     }
 //    fs.writeFileSync(`data.json`, JSON.stringify(data)); 
@@ -73,8 +73,8 @@ function genScores(teams, data) {
 
 }
 
-async function runFlow() {
-    let data = await initData(13);
+async function runFlow(year, weekCount) {
+    let data = await initData(year, weekCount);
     let teams = getTeams(data);
     genScores(teams, data);
 //    fs.writeFileSync(`data/teams.json`, JSON.stringify(teams)); 
