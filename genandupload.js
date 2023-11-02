@@ -149,14 +149,15 @@ function uploadFile(auth, spreadsheetId, values, range, valueInputOption) {
 
 }
 async function writeData(auth) {
-  let teams = await runFlow(2022, 10);
+  let teams = await runFlow(2023, 8);
   let { scores, projected } = transformToSheet(teams);
 
   const spreadsheetId2020 = '1d2H3ZjtjHVvGKirBBX7wKspjXXI8znp7_QOKxgxv4fQ';
   const spreadsheetId2021 = '19uapsMoF_ihR8hRUKcDWPbZizEE5Cj97fYaFPyM4Yw8';
   const spreadsheetId2022 = '1A6AFKgjx4ehUukod-NMwAtKnuY7pTcjN0em9zhQ9N1M';
-  uploadFile(auth, spreadsheetId2022, scores, "Scores!A1:Q13", "USER_ENTERED")
-  uploadFile(auth, spreadsheetId2022, projected, "Projected!A1:Q13", "USER_ENTERED")
+  const spreadsheetId2023 = '1v-cgf7qiwG2tYmBRIRwOzYmCcWo8cKfVoGCRq43V2tg';
+  uploadFile(auth, spreadsheetId2023, scores, "Scores!A1:Q13", "USER_ENTERED")
+  uploadFile(auth, spreadsheetId2023, projected, "Projected!A1:Q13", "USER_ENTERED")
 
 
 }
