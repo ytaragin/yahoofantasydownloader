@@ -149,7 +149,7 @@ function uploadFile(auth, spreadsheetId, values, range, valueInputOption) {
 
 }
 async function writeData(auth) {
-  let teams = await runFlow(2023, 8);
+  let teams = await runFlow(2023, 14);
   let { scores, projected } = transformToSheet(teams);
 
   const spreadsheetId2020 = '1d2H3ZjtjHVvGKirBBX7wKspjXXI8znp7_QOKxgxv4fQ';
