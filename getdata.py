@@ -279,14 +279,19 @@ def run_leagues(tok):
         #     "startweek" : 0,
         #     "games": 17
         # },
-        "2023": {
-            "league": "604473",
-            "gameid": "423",
+        # "2023": {
+        #     "league": "604473",
+        #     "gameid": "423",
+        #     "startweek": 0,
+        #     "games": 17
+        # },
+
+        "2024": {
+            "league": "380312",
+            "gameid": "449",
             "startweek": 0,
-            "games": 15
+            "games": 2
         }
-
-
     }
 
     for year, rec in league_ids.items():
@@ -341,6 +346,7 @@ run_leagues(tok)
 
 
 # to get nfl current code
-# make_req_and_dump("https://fantasysports.yahooapis.com/fantasy/v2/game/nfl", tok, "resp.xml")
+# make_req_and_dump(
+#     "https://fantasysports.yahooapis.com/fantasy/v2/game/nfl", tok, "resp.xml")
 
 # make_req_and_dump(f"https://fantasysports.yahooapis.com/fantasy/v2/team/406.l.735140.t.7/stats", tok, "data/pb.xml")
