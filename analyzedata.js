@@ -16,18 +16,18 @@ function printPlayers(players) {
 
 }
 
-function printFull(teamgame) {
-    printGame(teamgame, false)
+function printFull(teamgame, num) {
+    printGame(teamgame, false, num)
 }
 
 
-function printBrief(teamgame) {
-    printGame(teamgame, true)
+function printBrief(teamgame, num) {
+    printGame(teamgame, true, num)
 }
 
 
-function printGame(teamgame, brief) {
-    console.log("========================================");
+function printGame(teamgame, brief, num) {
+    console.log(`=================${num}=====================`);
     // let teamname = getTeamName(leagueData,teamgame);
     console.log(`Year: ${teamgame.year} Week: ${teamgame.week} Team: ${teamgame.name}`);
     // console.log(`ID: ${teamgame.id}`)
@@ -182,6 +182,15 @@ function gamesHighestLosingScore(games) {
 }
 
 
+function gamesLargestVictoryMargin(games) {
+    // games = _.uniqBy(games, (g) => g.id)
+    games = games.filter(f => f.result.toLowerCase().startsWith('w'))
+    games.sort((first, second) => (second.points - second.opponent.points) - (first.points - first.opponent.points))
+    return games;
+}
+
+
+
 // function gamesMaxPlayerOnBench(games) {
 //     games.sort((first, second) => getMaxPlayerInCategory(second.bench)-getMaxPlayerInCategory(first.bench)  );
 
@@ -243,7 +252,7 @@ async function run() {
     // let years = ["2018", "2019", "2020", "2021"];
 
     let ffgames = await loadYearsFF(_.range(2006, 2016));
-    let yahoogames = await loadYearsYahoo(_.range(2018, 2024));
+    let yahoogames = await loadYearsYahoo(_.range(2018, 2025));
 
     let games = [...yahoogames, ...ffgames]
 
@@ -281,6 +290,7 @@ async function run() {
     getTopGames(games, 10, "Top Total Scores", gamesTotalScore, printBrief);
     getTopGames(games, 10, "Highest Losing Scores", gamesHighestLosingScore, printBrief);
     getTopGames(games, 10, "Highest Scores", gamesHighestScores, printBrief);
+    getTopGames(games, 20, "Largest Victory Margin", gamesLargestVictoryMargin, printBrief);
 
 
 
