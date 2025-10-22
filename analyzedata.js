@@ -27,7 +27,7 @@ function printBrief(teamgame, num) {
 
 
 function printGame(teamgame, brief, num) {
-    console.log(`=================${num}=====================`);
+    console.log(`=================${num + 1}=====================`);
     // let teamname = getTeamName(leagueData,teamgame);
     console.log(`Year: ${teamgame.year} Week: ${teamgame.week} Team: ${teamgame.name}`);
     // console.log(`ID: ${teamgame.id}`)
@@ -172,6 +172,13 @@ function gamesHighestScores(games) {
     return games;
 }
 
+function gamesHighestScores(games) {
+    // games = _.uniqBy(games, (g) => g.id)
+    // games = games.filter(f => f.result.toLowerCase().startsWith('w'))
+    games.sort((first, second) => (first.points - second.points))
+    return games;
+}
+
 
 function gamesHighestLosingScore(games) {
     games = games.filter(f => f.result.toLowerCase().startsWith('l'))
@@ -186,6 +193,13 @@ function gamesLargestVictoryMargin(games) {
     // games = _.uniqBy(games, (g) => g.id)
     games = games.filter(f => f.result.toLowerCase().startsWith('w'))
     games.sort((first, second) => (second.points - second.opponent.points) - (first.points - first.opponent.points))
+    return games;
+}
+
+function gamesLargestLossMargin(games) {
+    // games = _.uniqBy(games, (g) => g.id)
+    games = games.filter(f => f.result.toLowerCase().startsWith('l'))
+    games.sort((first, second) => (second.opponent.points - second.points) - (first.opponent.points - first.points))
     return games;
 }
 
@@ -291,6 +305,8 @@ async function run() {
     getTopGames(games, 10, "Highest Losing Scores", gamesHighestLosingScore, printBrief);
     getTopGames(games, 10, "Highest Scores", gamesHighestScores, printBrief);
     getTopGames(games, 20, "Largest Victory Margin", gamesLargestVictoryMargin, printBrief);
+    // getTopGames(games, 20, "Largest Loss Margin", gamesLargestLossMargin, printFull);
+    getTopGames(games, 10, "Lowest Scores", gamesHighestScores, printFull);
 
 
 

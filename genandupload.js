@@ -29,9 +29,9 @@ const TOKEN_PATH = 'token.json';
 
 // Load client secrets from a local file.
 fs.readFile('credentials.json', (err, content) => {
-  if (err) return console.log('Error loading client secret file:', err);
-  // Authorize a client with credentials, then call the Google Sheets API.
-  authorize(JSON.parse(content), writeData); //listMajors);
+    if (err) return console.log('Error loading client secret file:', err);
+    // Authorize a client with credentials, then call the Google Sheets API.
+    authorize(JSON.parse(content), writeData); //listMajors);
 });
 
 /**
@@ -41,16 +41,16 @@ fs.readFile('credentials.json', (err, content) => {
  * @param {function} callback The callback to call with the authorized client.
  */
 function authorize(credentials, callback) {
-  const { client_secret, client_id, redirect_uris } = credentials.installed;
-  const oAuth2Client = new google.auth.OAuth2(
-    client_id, client_secret, redirect_uris[0]);
+    const { client_secret, client_id, redirect_uris } = credentials.installed;
+    const oAuth2Client = new google.auth.OAuth2(
+        client_id, client_secret, redirect_uris[0]);
 
-  // Check if we have previously stored a token.
-  fs.readFile(TOKEN_PATH, (err, token) => {
-    if (err) return getNewToken(oAuth2Client, callback);
-    oAuth2Client.setCredentials(JSON.parse(token));
-    callback(oAuth2Client);
-  });
+    // Check if we have previously stored a token.
+    fs.readFile(TOKEN_PATH, (err, token) => {
+        if (err) return getNewToken(oAuth2Client, callback);
+        oAuth2Client.setCredentials(JSON.parse(token));
+        callback(oAuth2Client);
+    });
 }
 
 /**
@@ -60,28 +60,28 @@ function authorize(credentials, callback) {
  * @param {getEventsCallback} callback The callback for the authorized client.
  */
 function getNewToken(oAuth2Client, callback) {
-  const authUrl = oAuth2Client.generateAuthUrl({
-    access_type: 'offline',
-    scope: SCOPES,
-  });
-  console.log('Authorize this app by visiting this url:', authUrl);
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-  rl.question('Enter the code from that page here: ', (code) => {
-    rl.close();
-    oAuth2Client.getToken(code, (err, token) => {
-      if (err) return console.error('Error while trying to retrieve access token', err);
-      oAuth2Client.setCredentials(token);
-      // Store the token to disk for later program executions
-      fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
-        if (err) return console.error(err);
-        console.log('Token stored to', TOKEN_PATH);
-      });
-      callback(oAuth2Client);
+    const authUrl = oAuth2Client.generateAuthUrl({
+        access_type: 'offline',
+        scope: SCOPES,
     });
-  });
+    console.log('Authorize this app by visiting this url:', authUrl);
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    });
+    rl.question('Enter the code from that page here: ', (code) => {
+        rl.close();
+        oAuth2Client.getToken(code, (err, token) => {
+            if (err) return console.error('Error while trying to retrieve access token', err);
+            oAuth2Client.setCredentials(token);
+            // Store the token to disk for later program executions
+            fs.writeFile(TOKEN_PATH, JSON.stringify(token), (err) => {
+                if (err) return console.error(err);
+                console.log('Token stored to', TOKEN_PATH);
+            });
+            callback(oAuth2Client);
+        });
+    });
 }
 
 /**
@@ -90,81 +90,95 @@ function getNewToken(oAuth2Client, callback) {
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
 function listMajors(auth) {
-  const sheets = google.sheets({ version: 'v4', auth });
-  sheets.spreadsheets.values.get({
-    spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
-    range: 'Class Data!A2:E',
-  }, (err, res) => {
-    if (err) return console.log('The API returned an error: ' + err);
-    const rows = res.data.values;
-    if (rows.length) {
-      console.log('Name, Major:');
-      // Print columns A and E, which correspond to indices 0 and 4.
-      rows.map((row) => {
-        console.log(`${row[0]}, ${row[4]}`);
-      });
-    } else {
-      console.log('No data found.');
-    }
-  });
+    const sheets = google.sheets({ version: 'v4', auth });
+    sheets.spreadsheets.values.get({
+        spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
+        range: 'Class Data!A2:E',
+    }, (err, res) => {
+        if (err) return console.log('The API returned an error: ' + err);
+        const rows = res.data.values;
+        if (rows.length) {
+            console.log('Name, Major:');
+            // Print columns A and E, which correspond to indices 0 and 4.
+            rows.map((row) => {
+                console.log(`${row[0]}, ${row[4]}`);
+            });
+        } else {
+            console.log('No data found.');
+        }
+    });
 }
 
 
 function transformToSheet(teams) {
-  let titleRow = [""];
-  for (let i = 1; i <= 16; i++) {
-    titleRow.push(i);
-  }
-  let scoreRows = Object.values(teams).map(t => [t.name, ...t.scores]);
-  let projectedRows = Object.values(teams).map(t => [t.name, ...t.projected]);
+    let titleRow = [""];
+    for (let i = 1; i <= 16; i++) {
+        titleRow.push(i);
+    }
+    let scoreRows = Object.values(teams).map(t => [t.name, ...t.scores]);
+    let projectedRows = Object.values(teams).map(t => [t.name, ...t.projected]);
 
-  let scores = [titleRow, ...scoreRows];
-  let projected = [titleRow, ...projectedRows];
+    let scores = [titleRow, ...scoreRows];
+    let projected = [titleRow, ...projectedRows];
 
 
-  return { scores, projected };
+    return { scores, projected };
 }
 
 function uploadFile(auth, spreadsheetId, values, range, valueInputOption) {
-  // const spreadsheetId = '1xWI0LE2ePaBf-zRzZSYhEttARLrhEhZGFldp5inSZIE';
-  const sheets = google.sheets({ version: 'v4', auth });
+    // const spreadsheetId = '1xWI0LE2ePaBf-zRzZSYhEttARLrhEhZGFldp5inSZIE';
+    const sheets = google.sheets({ version: 'v4', auth });
 
-  const resource = {
-    values,
-  };
+    const resource = {
+        values,
+    };
 
-  sheets.spreadsheets.values.update({
-    spreadsheetId,
-    range,
-    valueInputOption,
-    resource,
-  }, (err, result) => {
-    if (err) {
-      // Handle error
-      console.log(err);
-    } else {
-      console.log(`Result:`, result.updatedCells);
-    }
-  });
+    sheets.spreadsheets.values.update({
+        spreadsheetId,
+        range,
+        valueInputOption,
+        resource,
+    }, (err, result) => {
+        if (err) {
+            // Handle error
+            console.log(err);
+        } else {
+            console.log(`Result:`, result.updatedCells);
+        }
+    });
 
 }
+
+async function getAndUpload(auth, datadir, year, games, spreadsheetId) {
+
+    let teams = await runFlow(datadir, year, games);
+    let { scores, projected } = transformToSheet(teams);
+
+    uploadFile(auth, spreadsheetId, scores, "Scores!A1:Q13", "USER_ENTERED")
+    uploadFile(auth, spreadsheetId, projected, "Projected!A1:Q13", "USER_ENTERED")
+
+}
+
 async function writeData(auth) {
-  let teams = await runFlow(2023, 14);
-  let { scores, projected } = transformToSheet(teams);
+    // let teams = await runFlow("data", 2024, 6);
+    // let { scores, projected } = transformToSheet(teams);
+    //
+    const spreadsheetId2020 = '1d2H3ZjtjHVvGKirBBX7wKspjXXI8znp7_QOKxgxv4fQ';
+    const spreadsheetId2021 = '19uapsMoF_ihR8hRUKcDWPbZizEE5Cj97fYaFPyM4Yw8';
+    const spreadsheetId2022 = '1A6AFKgjx4ehUukod-NMwAtKnuY7pTcjN0em9zhQ9N1M';
+    const spreadsheetId2023 = '1v-cgf7qiwG2tYmBRIRwOzYmCcWo8cKfVoGCRq43V2tg';
+    const spreadsheetId2024 = '1wGPZnjDIDbE98z0PEkLGiUaDvjq7S7BdVVIOg3_PYFY';
+    const spreadsheetIdTGM2024 = '1v_U3BRFPbHm4D1jbSARwEvCaarfYVQ4Gp-GGGQBLQ0s';
+    // uploadFile(auth, spreadsheetId2024, scores, "Scores!A1:Q13", "USER_ENTERED")
+    // uploadFile(auth, spreadsheetId2024, projected, "Projected!A1:Q13", "USER_ENTERED")
 
-  const spreadsheetId2020 = '1d2H3ZjtjHVvGKirBBX7wKspjXXI8znp7_QOKxgxv4fQ';
-  const spreadsheetId2021 = '19uapsMoF_ihR8hRUKcDWPbZizEE5Cj97fYaFPyM4Yw8';
-  const spreadsheetId2022 = '1A6AFKgjx4ehUukod-NMwAtKnuY7pTcjN0em9zhQ9N1M';
-  const spreadsheetId2023 = '1v-cgf7qiwG2tYmBRIRwOzYmCcWo8cKfVoGCRq43V2tg';
-  uploadFile(auth, spreadsheetId2023, scores, "Scores!A1:Q13", "USER_ENTERED")
-  uploadFile(auth, spreadsheetId2023, projected, "Projected!A1:Q13", "USER_ENTERED")
-
-
+    getAndUpload(auth, "data", 2024, 14, spreadsheetId2024)
+    getAndUpload(auth, "datatgm", 2024, 15, spreadsheetIdTGM2024)
 }
 
 // [END sheets_quickstart]
 
 module.exports = {
-  SCOPES,
-  listMajors,
+    SCOPES,
+    listMajors,
 };

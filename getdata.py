@@ -250,8 +250,38 @@ def downloadyear(reqInfo):
         process_week(reqInfo, i+1)
 
 
-def run_leagues(tok):
-    league_ids = {
+def run_leagues(tok, league_ids, data_dir):
+
+    for year, rec in league_ids.items():
+        reqInfo = {
+            "tok": tok,
+            "baseurl": f'https://fantasysports.yahooapis.com/fantasy/v2/league/{rec["gameid"]}.l.{rec["league"]}',
+            "baseteamurl": f'https://fantasysports.yahooapis.com/fantasy/v2/team/{rec["gameid"]}.l.{rec["league"]}',
+            "year": year,
+            "datadir": f"{data_dir}/{year}",
+            "startweek": rec["startweek"],
+            "games": rec["games"]
+        }
+        downloadyear(reqInfo)
+
+    # year = "2021"
+    # rec = league_ids["2021"]
+
+    # reqInfo = {
+    #     "tok": tok,
+    #     "baseurl": f'https://fantasysports.yahooapis.com/fantasy/v2/league/{rec["gameid"]}.l.{rec["league"]}',
+    #     "baseteamurl": f'https://fantasysports.yahooapis.com/fantasy/v2/team/{rec["gameid"]}.l.{rec["league"]}',
+    #     "year": year,
+    #     "datadir": f"data/{year}",
+    #     "games": rec["games"]
+    # }
+
+    # downloadyear(reqInfo)
+
+
+tok = auth()
+
+atf_league_ids = {
         # "2018" : {
         #     "league": "1254687",
         #     "gameid": "380",
@@ -289,41 +319,22 @@ def run_leagues(tok):
         "2024": {
             "league": "380312",
             "gameid": "449",
-            "startweek": 0,
-            "games": 2
+            "startweek": 11,
+            "games": 14
         }
-    }
+}
 
-    for year, rec in league_ids.items():
-        reqInfo = {
-            "tok": tok,
-            "baseurl": f'https://fantasysports.yahooapis.com/fantasy/v2/league/{rec["gameid"]}.l.{rec["league"]}',
-            "baseteamurl": f'https://fantasysports.yahooapis.com/fantasy/v2/team/{rec["gameid"]}.l.{rec["league"]}',
-            "year": year,
-            "datadir": f"data/{year}",
-            "startweek": rec["startweek"],
-            "games": rec["games"]
+tgm_league_ids = {
+        "2024": {
+            "league": "240118",
+            "gameid": "449",
+            "startweek": 11,  
+            "games": 15, 
         }
-        downloadyear(reqInfo)
+}
 
-    # year = "2021"
-    # rec = league_ids["2021"]
-
-    # reqInfo = {
-    #     "tok": tok,
-    #     "baseurl": f'https://fantasysports.yahooapis.com/fantasy/v2/league/{rec["gameid"]}.l.{rec["league"]}',
-    #     "baseteamurl": f'https://fantasysports.yahooapis.com/fantasy/v2/team/{rec["gameid"]}.l.{rec["league"]}',
-    #     "year": year,
-    #     "datadir": f"data/{year}",
-    #     "games": rec["games"]
-    # }
-
-    # downloadyear(reqInfo)
-
-
-tok = auth()
-
-run_leagues(tok)
+# run_leagues(tok, atf_league_ids, "data")
+run_leagues(tok, tgm_league_ids, "datatgm")
 
 
 # make_req_and_dump("https://fantasysports.yahooapis.com/fantasy/v2/team/399.l.651421.t.8/roster;week=6", tok, "roster6.xml")
