@@ -2,6 +2,7 @@ const { match } = require('assert');
 const { ESRCH } = require('constants');
 const fs = require('fs')
 const xml2js = require('xml2js');
+const path = require('path');
 
 
 
@@ -17,8 +18,27 @@ async function loadFile(name) {
     return result;
 }
 
+async function getWeekCount(datadir, year) {
+    const weeksDir = path.join(datadir, year.toString(), 'weeks');
+    const files = fs.readdirSync(weeksDir);
 
-async function initData(datadir, year, weeks) {
+    let maxWeek = 0;
+    for (const file of files) {
+        const match = file.match(/^week(\d+)\.xml$/);
+        if (match) {
+            const weekNum = parseInt(match[1], 10);
+            if (weekNum > maxWeek) {
+                maxWeek = weekNum;
+            }
+        }
+    }
+
+    return maxWeek;
+}
+
+
+async function initData(datadir, year) {
+    let weeks = await getWeekCount(datadir, year);
     let data = {}
     data.all = await loadFile(`${datadir}/${year}/${year}.xml`);
     data.weeks = [];
@@ -75,8 +95,8 @@ function genScores(teams, data) {
 
 }
 
-async function runFlow(datadir, year, weekCount) {
-    let data = await initData(datadir, year, weekCount);
+async function runFlow(datadir, year) {
+    let data = await initData(datadir, year);
     // console.log(data.weeks[0])
     let teams = getTeams(data);
     // console.log(teams)
@@ -85,8 +105,26 @@ async function runFlow(datadir, year, weekCount) {
     return teams;
 }
 
+function transformToSheet(teams) {
+    let titleRow = [""];
+    for (let i = 1; i <= 16; i++) {
+        titleRow.push(i);
+    }
+    let scoreRows = Object.values(teams).map(t => [t.name, ...t.scores]);
+    let projectedRows = Object.values(teams).map(t => [t.name, ...t.projected]);
+
+    let scores = [titleRow, ...scoreRows];
+    let projected = [titleRow, ...projectedRows];
+
+
+    return { scores, projected };
+}
+
 module.exports = {
-    runFlow
+    runFlow,
+    transformToSheet
 };
 
 //runFlow();
+
+

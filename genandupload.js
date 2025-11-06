@@ -18,7 +18,7 @@
 const fs = require('fs');
 const readline = require('readline');
 const { google } = require('googleapis');
-const { runFlow } = require('./gendata');
+const { runFlow, transformToSheet } = require('./gendata');
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
@@ -110,21 +110,6 @@ function listMajors(auth) {
 }
 
 
-function transformToSheet(teams) {
-    let titleRow = [""];
-    for (let i = 1; i <= 16; i++) {
-        titleRow.push(i);
-    }
-    let scoreRows = Object.values(teams).map(t => [t.name, ...t.scores]);
-    let projectedRows = Object.values(teams).map(t => [t.name, ...t.projected]);
-
-    let scores = [titleRow, ...scoreRows];
-    let projected = [titleRow, ...projectedRows];
-
-
-    return { scores, projected };
-}
-
 function uploadFile(auth, spreadsheetId, values, range, valueInputOption) {
     // const spreadsheetId = '1xWI0LE2ePaBf-zRzZSYhEttARLrhEhZGFldp5inSZIE';
     const sheets = google.sheets({ version: 'v4', auth });
@@ -149,9 +134,9 @@ function uploadFile(auth, spreadsheetId, values, range, valueInputOption) {
 
 }
 
-async function getAndUpload(auth, datadir, year, games, spreadsheetId) {
+async function getAndUpload(auth, datadir, year, spreadsheetId) {
 
-    let teams = await runFlow(datadir, year, games);
+    let teams = await runFlow(datadir, year);
     let { scores, projected } = transformToSheet(teams);
 
     uploadFile(auth, spreadsheetId, scores, "Scores!A1:Q13", "USER_ENTERED")
@@ -169,11 +154,13 @@ async function writeData(auth) {
     const spreadsheetId2023 = '1v-cgf7qiwG2tYmBRIRwOzYmCcWo8cKfVoGCRq43V2tg';
     const spreadsheetId2024 = '1wGPZnjDIDbE98z0PEkLGiUaDvjq7S7BdVVIOg3_PYFY';
     const spreadsheetIdTGM2024 = '1v_U3BRFPbHm4D1jbSARwEvCaarfYVQ4Gp-GGGQBLQ0s';
+    const spreadsheetId2025 = '1nro96HnNtMx0xfAozIIxag_eJmS4jGCthwzZuEeDoUc';
+    const spreadsheetIdTGM2025 = '1MAvwK2yEmxtBWdtkSjsOeYuQ-F1fOMOUNuEAQbmZfcI';
     // uploadFile(auth, spreadsheetId2024, scores, "Scores!A1:Q13", "USER_ENTERED")
     // uploadFile(auth, spreadsheetId2024, projected, "Projected!A1:Q13", "USER_ENTERED")
 
-    getAndUpload(auth, "data", 2024, 14, spreadsheetId2024)
-    getAndUpload(auth, "datatgm", 2024, 15, spreadsheetIdTGM2024)
+    getAndUpload(auth, "data", 2024, spreadsheetId2025)
+    getAndUpload(auth, "datatgm", 2024, spreadsheetIdTGM2025)
 }
 
 // [END sheets_quickstart]

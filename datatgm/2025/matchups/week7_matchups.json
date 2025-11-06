@@ -1,0 +1,1397 @@
+{
+    "year": "2025",
+    "week": 7,
+    "games": [
+        {
+            "team1": {
+                "teamnum": "1",
+                "players": [
+                    {
+                        "name": "Jayden Daniels",
+                        "key": "461.p.40896",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "19.74"
+                    },
+                    {
+                        "name": "Ja'Marr Chase",
+                        "key": "461.p.33393",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "30.10"
+                    },
+                    {
+                        "name": "DeVonta Smith",
+                        "key": "461.p.33398",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "28.80"
+                    },
+                    {
+                        "name": "Rashee Rice",
+                        "key": "461.p.40084",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "19.70"
+                    },
+                    {
+                        "name": "TreVeyon Henderson",
+                        "key": "461.p.41823",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "0.50"
+                    },
+                    {
+                        "name": "Quinshon Judkins",
+                        "key": "461.p.41821",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "26.40"
+                    },
+                    {
+                        "name": "Darren Waller",
+                        "key": "461.p.28592",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Rhamondre Stevenson",
+                        "key": "461.p.33508",
+                        "position": "W/R/T",
+                        "primary_position": "RB",
+                        "points": "15.80"
+                    },
+                    {
+                        "name": "Jakobi Meyers",
+                        "key": "461.p.32231",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Juwan Johnson",
+                        "key": "461.p.33113",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "10.40"
+                    },
+                    {
+                        "name": "Malik Washington",
+                        "key": "461.p.41058",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "5.50"
+                    },
+                    {
+                        "name": "Hassan Haskins",
+                        "key": "461.p.34087",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "1.50"
+                    },
+                    {
+                        "name": "Kendrick Bourne",
+                        "key": "461.p.30551",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "2.40"
+                    },
+                    {
+                        "name": "Daniel Carlson",
+                        "key": "461.p.31137",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Green Bay",
+                        "key": "461.p.100009",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "8.00"
+                    },
+                    {
+                        "name": "Brock Bowers",
+                        "key": "461.p.40878",
+                        "position": "IR",
+                        "primary_position": "TE",
+                        "points": "0.00"
+                    }
+                ],
+                "points": "149.04",
+                "projected": "112.94"
+            },
+            "team2": {
+                "teamnum": "9",
+                "players": [
+                    {
+                        "name": "Daniel Jones",
+                        "key": "461.p.31838",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "26.22"
+                    },
+                    {
+                        "name": "Amon-Ra St. Brown",
+                        "key": "461.p.33500",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "17.60"
+                    },
+                    {
+                        "name": "Stefon Diggs",
+                        "key": "461.p.28534",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "10.40"
+                    },
+                    {
+                        "name": "Quentin Johnston",
+                        "key": "461.p.40051",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "10.00"
+                    },
+                    {
+                        "name": "Jonathan Taylor",
+                        "key": "461.p.32711",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "32.70"
+                    },
+                    {
+                        "name": "Jacory Croskey-Merritt",
+                        "key": "461.p.42010",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "3.70"
+                    },
+                    {
+                        "name": "AJ Barner",
+                        "key": "461.p.41001",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "1.40"
+                    },
+                    {
+                        "name": "David Montgomery",
+                        "key": "461.p.31905",
+                        "position": "W/R/T",
+                        "primary_position": "RB",
+                        "points": "4.90"
+                    },
+                    {
+                        "name": "Terry McLaurin",
+                        "key": "461.p.31908",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Michael Pittman Jr.",
+                        "key": "461.p.32704",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "17.30"
+                    },
+                    {
+                        "name": "T.J. Hockenson",
+                        "key": "461.p.31840",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "7.30"
+                    },
+                    {
+                        "name": "Hollywood Brown",
+                        "key": "461.p.31857",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "7.40"
+                    },
+                    {
+                        "name": "Khalil Shakir",
+                        "key": "461.p.34104",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Jake Bates",
+                        "key": "461.p.40835",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "7.00"
+                    },
+                    {
+                        "name": "Washington",
+                        "key": "461.p.100028",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "-2.00"
+                    },
+                    {
+                        "name": "Joe Burrow",
+                        "key": "461.p.32671",
+                        "position": "IR",
+                        "primary_position": "QB",
+                        "points": "0.00"
+                    }
+                ],
+                "points": "111.92",
+                "projected": "110.52"
+            }
+        },
+        {
+            "team1": {
+                "teamnum": "2",
+                "players": [
+                    {
+                        "name": "Patrick Mahomes",
+                        "key": "461.p.30123",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "32.24"
+                    },
+                    {
+                        "name": "Courtland Sutton",
+                        "key": "461.p.31010",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "13.70"
+                    },
+                    {
+                        "name": "Jerry Jeudy",
+                        "key": "461.p.32685",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "2.70"
+                    },
+                    {
+                        "name": "Luke McCaffrey",
+                        "key": "461.p.40964",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Josh Jacobs",
+                        "key": "461.p.31856",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "18.30"
+                    },
+                    {
+                        "name": "Travis Etienne Jr.",
+                        "key": "461.p.33413",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "6.00"
+                    },
+                    {
+                        "name": "Travis Kelce",
+                        "key": "461.p.26686",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "6.90"
+                    },
+                    {
+                        "name": "Brian Robinson Jr.",
+                        "key": "461.p.34054",
+                        "position": "W/R/T",
+                        "primary_position": "RB",
+                        "points": "3.60"
+                    },
+                    {
+                        "name": "Darius Slayton",
+                        "key": "461.p.32003",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Zay Flowers",
+                        "key": "461.p.40039",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Derrick Henry",
+                        "key": "461.p.29279",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Rashod Bateman",
+                        "key": "461.p.33415",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Jonnu Smith",
+                        "key": "461.p.30213",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "10.30"
+                    },
+                    {
+                        "name": "Cameron Dicker",
+                        "key": "461.p.34344",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "7.00"
+                    },
+                    {
+                        "name": "Denver",
+                        "key": "461.p.100007",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "5.00"
+                    },
+                    {
+                        "name": "J.J. McCarthy",
+                        "key": "461.p.40905",
+                        "position": "IR",
+                        "primary_position": "QB",
+                        "points": "0.00"
+                    }
+                ],
+                "points": "95.44",
+                "projected": "104.35"
+            },
+            "team2": {
+                "teamnum": "10",
+                "players": [
+                    {
+                        "name": "Dak Prescott",
+                        "key": "461.p.29369",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "28.26"
+                    },
+                    {
+                        "name": "Rome Odunze",
+                        "key": "461.p.40901",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "4.10"
+                    },
+                    {
+                        "name": "DK Metcalf",
+                        "key": "461.p.31896",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "6.50"
+                    },
+                    {
+                        "name": "CeeDee Lamb",
+                        "key": "461.p.32687",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "19.50"
+                    },
+                    {
+                        "name": "De'Von Achane",
+                        "key": "461.p.40118",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "11.30"
+                    },
+                    {
+                        "name": "Alvin Kamara",
+                        "key": "461.p.30180",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "4.40"
+                    },
+                    {
+                        "name": "George Kittle",
+                        "key": "461.p.30259",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Cam Skattebo",
+                        "key": "461.p.41922",
+                        "position": "W/R/T",
+                        "primary_position": "RB",
+                        "points": "16.90"
+                    },
+                    {
+                        "name": "Hunter Henry",
+                        "key": "461.p.29269",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "5.30"
+                    },
+                    {
+                        "name": "Romeo Doubs",
+                        "key": "461.p.34088",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "10.20"
+                    },
+                    {
+                        "name": "Michael Wilson",
+                        "key": "461.p.40121",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "5.50"
+                    },
+                    {
+                        "name": "Matthew Golden",
+                        "key": "461.p.41808",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "5.70"
+                    },
+                    {
+                        "name": "Jared Goff",
+                        "key": "461.p.29235",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "12.34"
+                    },
+                    {
+                        "name": "Wil Lutz",
+                        "key": "461.p.29754",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "5.00"
+                    },
+                    {
+                        "name": "Kansas City",
+                        "key": "461.p.100012",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "20.00"
+                    }
+                ],
+                "points": "115.96",
+                "projected": "122.98"
+            }
+        },
+        {
+            "team1": {
+                "teamnum": "3",
+                "players": [
+                    {
+                        "name": "Aaron Rodgers",
+                        "key": "461.p.7200",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "30.56"
+                    },
+                    {
+                        "name": "A.J. Brown",
+                        "key": "461.p.31883",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "26.10"
+                    },
+                    {
+                        "name": "Wan'Dale Robinson",
+                        "key": "461.p.33998",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "12.50"
+                    },
+                    {
+                        "name": "Justin Jefferson",
+                        "key": "461.p.32692",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "10.40"
+                    },
+                    {
+                        "name": "Kyren Williams",
+                        "key": "461.p.34120",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "7.50"
+                    },
+                    {
+                        "name": "Breece Hall",
+                        "key": "461.p.33991",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "6.20"
+                    },
+                    {
+                        "name": "Jake Ferguson",
+                        "key": "461.p.34085",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "18.40"
+                    },
+                    {
+                        "name": "Jauan Jennings",
+                        "key": "461.p.32887",
+                        "position": "W/R/T",
+                        "primary_position": "WR",
+                        "points": "5.10"
+                    },
+                    {
+                        "name": "Bryce Young",
+                        "key": "461.p.40029",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "11.52"
+                    },
+                    {
+                        "name": "Garrett Wilson",
+                        "key": "461.p.33965",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Tre Tucker",
+                        "key": "461.p.40114",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "5.80"
+                    },
+                    {
+                        "name": "Bhayshul Tuten",
+                        "key": "461.p.41900",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "2.20"
+                    },
+                    {
+                        "name": "Dalton Kincaid",
+                        "key": "461.p.40048",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Jason Myers",
+                        "key": "461.p.28378",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "9.00"
+                    },
+                    {
+                        "name": "New England",
+                        "key": "461.p.100017",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "20.00"
+                    }
+                ],
+                "points": "145.76",
+                "projected": "113.55"
+            },
+            "team2": {
+                "teamnum": "4",
+                "players": [
+                    {
+                        "name": "Jalen Hurts",
+                        "key": "461.p.32723",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "30.04"
+                    },
+                    {
+                        "name": "Tetairoa McMillan",
+                        "key": "461.p.41793",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "4.80"
+                    },
+                    {
+                        "name": "Jameson Williams",
+                        "key": "461.p.33967",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Jordan Addison",
+                        "key": "461.p.40042",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "17.30"
+                    },
+                    {
+                        "name": "Christian McCaffrey",
+                        "key": "461.p.30121",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "35.60"
+                    },
+                    {
+                        "name": "Ashton Jeanty",
+                        "key": "461.p.41791",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "3.90"
+                    },
+                    {
+                        "name": "Evan Engram",
+                        "key": "461.p.30136",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "6.70"
+                    },
+                    {
+                        "name": "Rachaad White",
+                        "key": "461.p.34047",
+                        "position": "W/R/T",
+                        "primary_position": "RB",
+                        "points": "6.40"
+                    },
+                    {
+                        "name": "Troy Franklin",
+                        "key": "461.p.41009",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "11.40"
+                    },
+                    {
+                        "name": "Omarion Hampton",
+                        "key": "461.p.41807",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Kyle Pitts Sr.",
+                        "key": "461.p.33392",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "9.70"
+                    },
+                    {
+                        "name": "Caleb Williams",
+                        "key": "461.p.40900",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "2.68"
+                    },
+                    {
+                        "name": "Chase McLaughlin",
+                        "key": "461.p.32417",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "5.00"
+                    },
+                    {
+                        "name": "Cleveland",
+                        "key": "461.p.100005",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "26.00"
+                    },
+                    {
+                        "name": "Baltimore",
+                        "key": "461.p.100033",
+                        "position": "BN",
+                        "primary_position": "DEF",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Chris Godwin Jr.",
+                        "key": "461.p.30197",
+                        "position": "IR",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    }
+                ],
+                "points": "135.74",
+                "projected": "117.07"
+            }
+        },
+        {
+            "team1": {
+                "teamnum": "5",
+                "players": [
+                    {
+                        "name": "C.J. Stroud",
+                        "key": "461.p.40030",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "15.66"
+                    },
+                    {
+                        "name": "Rashid Shaheed",
+                        "key": "461.p.34659",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "6.00"
+                    },
+                    {
+                        "name": "Xavier Worthy",
+                        "key": "461.p.40877",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "6.30"
+                    },
+                    {
+                        "name": "Nico Collins",
+                        "key": "461.p.33477",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "4.70"
+                    },
+                    {
+                        "name": "Kenneth Walker III",
+                        "key": "461.p.33996",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "6.60"
+                    },
+                    {
+                        "name": "Jordan Mason",
+                        "key": "461.p.34320",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "11.70"
+                    },
+                    {
+                        "name": "David Njoku",
+                        "key": "461.p.30142",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Calvin Ridley",
+                        "key": "461.p.30996",
+                        "position": "W/R/T",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Jerome Ford",
+                        "key": "461.p.34112",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "2.00"
+                    },
+                    {
+                        "name": "Zach Ertz",
+                        "key": "461.p.26658",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "11.20"
+                    },
+                    {
+                        "name": "Josh Allen",
+                        "key": "461.p.30977",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Bucky Irving",
+                        "key": "461.p.40993",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Kaleb Johnson",
+                        "key": "461.p.41881",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Evan McPherson",
+                        "key": "461.p.33537",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "17.00"
+                    },
+                    {
+                        "name": "Minnesota",
+                        "key": "461.p.100016",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "3.00"
+                    }
+                ],
+                "points": "70.96",
+                "projected": "85.44"
+            },
+            "team2": {
+                "teamnum": "12",
+                "players": [
+                    {
+                        "name": "Justin Herbert",
+                        "key": "461.p.32676",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "33.90"
+                    },
+                    {
+                        "name": "Puka Nacua",
+                        "key": "461.p.40168",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Marvin Harrison Jr.",
+                        "key": "461.p.40893",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "6.80"
+                    },
+                    {
+                        "name": "Elic Ayomanor",
+                        "key": "461.p.41904",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "3.90"
+                    },
+                    {
+                        "name": "Tony Pollard",
+                        "key": "461.p.31960",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "9.10"
+                    },
+                    {
+                        "name": "Jaylen Warren",
+                        "key": "461.p.34447",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "17.80"
+                    },
+                    {
+                        "name": "Tyler Warren",
+                        "key": "461.p.41799",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "14.90"
+                    },
+                    {
+                        "name": "DJ Moore",
+                        "key": "461.p.30994",
+                        "position": "W/R/T",
+                        "primary_position": "WR",
+                        "points": "6.70"
+                    },
+                    {
+                        "name": "Woody Marks",
+                        "key": "461.p.41902",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "11.00"
+                    },
+                    {
+                        "name": "Chuba Hubbard",
+                        "key": "461.p.33514",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "6.50"
+                    },
+                    {
+                        "name": "Baker Mayfield",
+                        "key": "461.p.30971",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "12.12"
+                    },
+                    {
+                        "name": "Jayden Higgins",
+                        "key": "461.p.41819",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Jalen Coker",
+                        "key": "461.p.41293",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Harrison Butker",
+                        "key": "461.p.30346",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "7.00"
+                    },
+                    {
+                        "name": "Chicago",
+                        "key": "461.p.100003",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "14.00"
+                    }
+                ],
+                "points": "114.10",
+                "projected": "95.88"
+            }
+        },
+        {
+            "team1": {
+                "teamnum": "6",
+                "players": [
+                    {
+                        "name": "Drake Maye",
+                        "key": "461.p.40881",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "27.08"
+                    },
+                    {
+                        "name": "Ladd McConkey",
+                        "key": "461.p.40908",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "11.20"
+                    },
+                    {
+                        "name": "Tee Higgins",
+                        "key": "461.p.32703",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "18.60"
+                    },
+                    {
+                        "name": "Davante Adams",
+                        "key": "461.p.27581",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "24.00"
+                    },
+                    {
+                        "name": "Saquon Barkley",
+                        "key": "461.p.30972",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "4.70"
+                    },
+                    {
+                        "name": "Javonte Williams",
+                        "key": "461.p.33423",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "18.30"
+                    },
+                    {
+                        "name": "Cade Otton",
+                        "key": "461.p.34062",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "10.00"
+                    },
+                    {
+                        "name": "Chris Olave",
+                        "key": "461.p.33966",
+                        "position": "W/R/T",
+                        "primary_position": "WR",
+                        "points": "24.30"
+                    },
+                    {
+                        "name": "Zach Charbonnet",
+                        "key": "461.p.40075",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "18.50"
+                    },
+                    {
+                        "name": "Trevor Lawrence",
+                        "key": "461.p.33389",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "19.64"
+                    },
+                    {
+                        "name": "Keenan Allen",
+                        "key": "461.p.26699",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "23.40"
+                    },
+                    {
+                        "name": "Rico Dowdle",
+                        "key": "461.p.33100",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "10.10"
+                    },
+                    {
+                        "name": "Michael Carter",
+                        "key": "461.p.33495",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "4.60"
+                    },
+                    {
+                        "name": "Brandon McManus",
+                        "key": "461.p.27120",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Las Vegas",
+                        "key": "461.p.100013",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "-1.00"
+                    },
+                    {
+                        "name": "James Conner",
+                        "key": "461.p.30218",
+                        "position": "IR",
+                        "primary_position": "RB",
+                        "points": "0.00"
+                    }
+                ],
+                "points": "137.18",
+                "projected": "100.60"
+            },
+            "team2": {
+                "teamnum": "7",
+                "players": [
+                    {
+                        "name": "Kyler Murray",
+                        "key": "461.p.31833",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Tyreek Hill",
+                        "key": "461.p.29399",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Jaylen Waddle",
+                        "key": "461.p.33394",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "2.00"
+                    },
+                    {
+                        "name": "Ricky Pearsall",
+                        "key": "461.p.40892",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Jahmyr Gibbs",
+                        "key": "461.p.40059",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "35.30"
+                    },
+                    {
+                        "name": "Chase Brown",
+                        "key": "461.p.40196",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "11.00"
+                    },
+                    {
+                        "name": "Trey McBride",
+                        "key": "461.p.34010",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "24.40"
+                    },
+                    {
+                        "name": "Isiah Pacheco",
+                        "key": "461.p.34207",
+                        "position": "W/R/T",
+                        "primary_position": "RB",
+                        "points": "11.90"
+                    },
+                    {
+                        "name": "J.K. Dobbins",
+                        "key": "461.p.32725",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "8.50"
+                    },
+                    {
+                        "name": "Jordan Love",
+                        "key": "461.p.32696",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "13.36"
+                    },
+                    {
+                        "name": "Dylan Sampson",
+                        "key": "461.p.41907",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "2.20"
+                    },
+                    {
+                        "name": "Darnell Mooney",
+                        "key": "461.p.32843",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "8.30"
+                    },
+                    {
+                        "name": "Chig Okonkwo",
+                        "key": "461.p.34099",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Chris Boswell",
+                        "key": "461.p.28188",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "8.00"
+                    },
+                    {
+                        "name": "Detroit",
+                        "key": "461.p.100008",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "13.00"
+                    }
+                ],
+                "points": "105.60",
+                "projected": "71.12"
+            }
+        },
+        {
+            "team1": {
+                "teamnum": "8",
+                "players": [
+                    {
+                        "name": "Tua Tagovailoa",
+                        "key": "461.p.32675",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "-4.40"
+                    },
+                    {
+                        "name": "George Pickens",
+                        "key": "461.p.34007",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "10.20"
+                    },
+                    {
+                        "name": "Cooper Kupp",
+                        "key": "461.p.30182",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "1.70"
+                    },
+                    {
+                        "name": "Jordan Whittington",
+                        "key": "461.p.41083",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "1.90"
+                    },
+                    {
+                        "name": "Bijan Robinson",
+                        "key": "461.p.40055",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "18.20"
+                    },
+                    {
+                        "name": "Nick Chubb",
+                        "key": "461.p.31005",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "1.60"
+                    },
+                    {
+                        "name": "Sam LaPorta",
+                        "key": "461.p.40064",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "3.00"
+                    },
+                    {
+                        "name": "Dallas Goedert",
+                        "key": "461.p.31019",
+                        "position": "W/R/T",
+                        "primary_position": "TE",
+                        "points": "3.30"
+                    },
+                    {
+                        "name": "Deebo Samuel",
+                        "key": "461.p.31868",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Emeka Egbuka",
+                        "key": "461.p.41804",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "7.80"
+                    },
+                    {
+                        "name": "James Cook III",
+                        "key": "461.p.34019",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Lamar Jackson",
+                        "key": "461.p.31002",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Joe Mixon",
+                        "key": "461.p.30161",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Brandon Aubrey",
+                        "key": "461.p.40819",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "17.00"
+                    },
+                    {
+                        "name": "Philadelphia",
+                        "key": "461.p.100021",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "12.00"
+                    }
+                ],
+                "points": "64.50",
+                "projected": "99.65"
+            },
+            "team2": {
+                "teamnum": "11",
+                "players": [
+                    {
+                        "name": "Bo Nix",
+                        "key": "461.p.40875",
+                        "position": "QB",
+                        "primary_position": "QB",
+                        "points": "42.96"
+                    },
+                    {
+                        "name": "Brian Thomas Jr.",
+                        "key": "461.p.40883",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "4.60"
+                    },
+                    {
+                        "name": "Drake London",
+                        "key": "461.p.33963",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "6.20"
+                    },
+                    {
+                        "name": "Jaxon Smith-Njigba",
+                        "key": "461.p.40041",
+                        "position": "WR",
+                        "primary_position": "WR",
+                        "points": "22.30"
+                    },
+                    {
+                        "name": "D'Andre Swift",
+                        "key": "461.p.32705",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "20.30"
+                    },
+                    {
+                        "name": "Kimani Vidal",
+                        "key": "461.p.41052",
+                        "position": "RB",
+                        "primary_position": "RB",
+                        "points": "5.50"
+                    },
+                    {
+                        "name": "Tucker Kraft",
+                        "key": "461.p.40102",
+                        "position": "TE",
+                        "primary_position": "TE",
+                        "points": "14.30"
+                    },
+                    {
+                        "name": "Mike Evans",
+                        "key": "461.p.27535",
+                        "position": "W/R/T",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "RJ Harvey",
+                        "key": "461.p.41845",
+                        "position": "BN",
+                        "primary_position": "RB",
+                        "points": "6.70"
+                    },
+                    {
+                        "name": "Travis Hunter",
+                        "key": "461.p.99001",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "20.10"
+                    },
+                    {
+                        "name": "Matthew Stafford",
+                        "key": "461.p.9265",
+                        "position": "BN",
+                        "primary_position": "QB",
+                        "points": "37.38"
+                    },
+                    {
+                        "name": "Keon Coleman",
+                        "key": "461.p.40911",
+                        "position": "BN",
+                        "primary_position": "WR",
+                        "points": "0.00"
+                    },
+                    {
+                        "name": "Dalton Schultz",
+                        "key": "461.p.31107",
+                        "position": "BN",
+                        "primary_position": "TE",
+                        "points": "14.30"
+                    },
+                    {
+                        "name": "Matt Gay",
+                        "key": "461.p.31977",
+                        "position": "K",
+                        "primary_position": "K",
+                        "points": "2.00"
+                    },
+                    {
+                        "name": "Pittsburgh",
+                        "key": "461.p.100023",
+                        "position": "DEF",
+                        "primary_position": "DEF",
+                        "points": "0.00"
+                    }
+                ],
+                "points": "118.16",
+                "projected": "105.91"
+            }
+        }
+    ]
+}

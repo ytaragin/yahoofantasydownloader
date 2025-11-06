@@ -316,24 +316,36 @@ atf_league_ids = {
         #     "games": 17
         # },
 
-        "2024": {
-            "league": "380312",
-            "gameid": "449",
-            "startweek": 11,
-            "games": 14
+        # "2024": {
+        #     "league": "380312",
+        #     "gameid": "449",
+        #     "startweek": 11,
+        #     "games": 14
+        # },
+        "2025": {
+            "league": "742133",
+            "gameid": "461",
+            "startweek": 7,
+            "games": 9
         }
 }
 
 tgm_league_ids = {
-        "2024": {
-            "league": "240118",
-            "gameid": "449",
-            "startweek": 11,  
-            "games": 15, 
+        # "2024": {
+        #     "league": "240118",
+        #     "gameid": "449",
+        #     "startweek": 11,  
+        #     "games": 15, 
+        # },
+        "2025": {
+            "league": "313501",
+            "gameid": "461",
+            "startweek": 7,  
+            "games": 9, 
         }
 }
 
-# run_leagues(tok, atf_league_ids, "data")
+run_leagues(tok, atf_league_ids, "data")
 run_leagues(tok, tgm_league_ids, "datatgm")
 
 
@@ -357,7 +369,6 @@ run_leagues(tok, tgm_league_ids, "datatgm")
 
 
 # to get nfl current code
-# make_req_and_dump(
-#     "https://fantasysports.yahooapis.com/fantasy/v2/game/nfl", tok, "resp.xml")
+# make_req_and_dump( "https://fantasysports.yahooapis.com/fantasy/v2/game/nfl", tok, "resp.xml")
 
 # make_req_and_dump(f"https://fantasysports.yahooapis.com/fantasy/v2/team/406.l.735140.t.7/stats", tok, "data/pb.xml")
