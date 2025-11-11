@@ -77,7 +77,7 @@ function getTopDefK(games) {
 function iteratePlayersInGame(playerList, handlePlayer) {
     for (const [pos, players] of Object.entries(playerList)) {
         for (player of players) {
-            handlePlayer(player);
+            handlePlayer(player, pos);
         }
     }
 }
@@ -204,13 +204,90 @@ function gamesLargestLossMargin(games) {
 }
 
 
+function playersMostPoints(playerList) {
+    return playerList.sort((first, second) => (second.playerPoints - first.playerPoints))
+}
+
+function playersMostPointsOnBench(playerList) {
+    playerList = playerList.filter(f => !f.active)
+    return playerList.sort((first, second) => (second.playerPoints - first.playerPoints))
+}
+
+
 
 // function gamesMaxPlayerOnBench(games) {
 //     games.sort((first, second) => getMaxPlayerInCategory(second.bench)-getMaxPlayerInCategory(first.bench)  );
 
 // }
 
-function getTopGames(games, number, label, sorter, printer) {
+
+function createPlayerSummaryRecord(player, gameSummary, pos, active) {
+    return {
+        ...gameSummary,
+        // playerId: player.id,
+        playerName: player.name,
+        playerPoints: player.points,
+        position: pos,
+        active,
+    };
+}
+
+function createGameSummaryRecord(game) {
+    // console.log(game)
+    return {
+        id: game.id,
+        team: game.name,
+        year: game.year,
+        week: game.week,
+        result: game.result
+    };
+}
+
+function getPlayerListFromGame(game) {
+    // console.log(game)
+
+    let playerLists = [];
+
+    let gameSummary = createGameSummaryRecord(game);
+
+    iteratePlayersInGame(game.pos, (player, pos) => {
+        playerLists.push(createPlayerSummaryRecord(player, gameSummary, pos, true));
+    });
+
+    iteratePlayersInGame(game.bench, (player, pos) => {
+        playerLists.push(createPlayerSummaryRecord(player, gameSummary, pos, false));
+    });
+
+    return playerLists;
+}
+
+
+function getAllPlayerLists(games) {
+    let playerLists = [];
+
+    games.forEach(game => {
+        playerLists.push(...getPlayerListFromGame(game));
+    });
+
+    // console.log(`Player list length: ${playerLists.length}`);
+    return playerLists
+}
+
+function padString(str, length) {
+    return str + ' '.repeat(Math.max(0, length - str.length));
+}
+
+
+function printPlayer(player, num) {
+    // console.log(player)
+    const bench = player.active ? "" : "-bench";
+    const teamstr = padString(`${player.team}(${player.year}/${player.week})`, 35);
+    const playerstr = padString(`${player.playerName}(${player.position}${bench})`, 20);
+    console.log(`${num + 1}) ${teamstr} ${playerstr} - ${player.playerPoints}`);
+}
+
+
+function getTopThings(things, number, label, sorter, printer) {
 
     let label_len = label.length;
     let wrapper_len = 5;
@@ -220,10 +297,23 @@ function getTopGames(games, number, label, sorter, printer) {
     console.log(header)
     console.log(`${wrapper} ${label} ${wrapper}`);
     console.log(header)
-    games = sorter(games);
-    games.slice(0, number).forEach(printer);
+
+    // console.log(`Total ${label}: ${things.length}`);
+
+    things = sorter(things);
+    // console.log(`Total ${label}: ${things.length}`);
+    things.slice(0, number).forEach(printer);
 }
 
+
+function getTopGames(games, number, label, sorter, printer) {
+    getTopThings(games, number, label, sorter, printer);
+}
+
+function getTopPlayerGames(games, number, label, sorter) {
+    let playerList = getAllPlayerLists(games);
+    getTopThings(playerList, number, label, sorter, printPlayer);
+}
 
 function mapNegativePlayers(games) {
     let count = {}
@@ -266,7 +356,7 @@ async function run() {
     // let years = ["2018", "2019", "2020", "2021"];
 
     let ffgames = await loadYearsFF(_.range(2006, 2016));
-    let yahoogames = await loadYearsYahoo(_.range(2018, 2025));
+    let yahoogames = await loadYearsYahoo(_.range(2018, 2026));
 
     let games = [...yahoogames, ...ffgames]
 
@@ -299,16 +389,18 @@ async function run() {
 
     // mapNegativePlayers(games);
 
-    getTopGames(games, 5, "Top Player On Bench", gamesMaxPlayerOnBench, printFull);
+    // getTopGames(games, 5, "Top Player On Bench", gamesMaxPlayerOnBench, printFull);
     getTopGames(games, 5, "Top Player Active", gamesMaxPlayerActive, printFull);
-    getTopGames(games, 10, "Top Total Scores", gamesTotalScore, printBrief);
-    getTopGames(games, 10, "Highest Losing Scores", gamesHighestLosingScore, printBrief);
-    getTopGames(games, 10, "Highest Scores", gamesHighestScores, printBrief);
-    getTopGames(games, 20, "Largest Victory Margin", gamesLargestVictoryMargin, printBrief);
-    // getTopGames(games, 20, "Largest Loss Margin", gamesLargestLossMargin, printFull);
-    getTopGames(games, 10, "Lowest Scores", gamesHighestScores, printFull);
+    // getTopGames(games, 10, "Top Total Scores", gamesTotalScore, printBrief);
+    // getTopGames(games, 10, "Highest Losing Scores", gamesHighestLosingScore, printBrief);
+    // getTopGames(games, 10, "Highest Scores", gamesHighestScores, printBrief);
+    // getTopGames(games, 20, "Largest Victory Margin", gamesLargestVictoryMargin, printBrief);
+    // // getTopGames(games, 20, "Largest Loss Margin", gamesLargestLossMargin, printFull);
+    // getTopGames(games, 10, "Lowest Scores", gamesHighestScores, printFull);
 
 
+    getTopPlayerGames(games, 25, "Top Scoring Players", playersMostPoints);
+    getTopPlayerGames(games, 25, "Top Scoring Players On Bench", playersMostPointsOnBench);
 
 
     //  negGames.forEach(g=>printGame(g, leagueData))
