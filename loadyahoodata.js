@@ -15,6 +15,7 @@ async function loadLeagueInfo(year) {
         let teamNum = team.team_id[0]
         yearData[teamNum] = {}
         yearData[teamNum].name = team.name[0]
+        yearData[teamNum].owner = team.managers[0].manager[0].nickname[0]
     });
 
     console.log(yearData);
@@ -51,6 +52,7 @@ function flattenGame(year, week, teamgame, opponent, leagueData) {
     teamgame.week = week;
 
     teamgame.name = leagueData[teamgame.teamnum].name
+    teamgame.owner = leagueData[teamgame.teamnum].owner
     teamgame.pos = {
         QB: [],
         WR: [],
@@ -65,7 +67,8 @@ function flattenGame(year, week, teamgame, opponent, leagueData) {
         points: parseFloat(opponent.points),
         teamnum: opponent.teamnum,
         name: leagueData[opponent.teamnum].name,
-        year: year
+        year: year,
+        owner: leagueData[opponent.teamnum].owner
     }
     teamgame.result = getResult(teamgame);
     teamgame.bench = {};

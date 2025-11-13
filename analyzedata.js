@@ -29,7 +29,7 @@ function printBrief(teamgame, num) {
 function printGame(teamgame, brief, num) {
     console.log(`=================${num + 1}=====================`);
     // let teamname = getTeamName(leagueData,teamgame);
-    console.log(`Year: ${teamgame.year} Week: ${teamgame.week} Team: ${teamgame.name}`);
+    console.log(`Year: ${teamgame.year} Week: ${teamgame.week} Team: ${teamgame.name}(${teamgame.owner})`);
     // console.log(`ID: ${teamgame.id}`)
     console.log(`Opponent: ${teamgame.opponent.name} Result: ${teamgame.result} (${teamgame.points}-${teamgame.opponent.points})`);
     //console.log(teamgame);
@@ -239,7 +239,8 @@ function createGameSummaryRecord(game) {
         team: game.name,
         year: game.year,
         week: game.week,
-        result: game.result
+        result: game.result,
+        owner: game.owner
     };
 }
 
@@ -281,7 +282,7 @@ function padString(str, length) {
 function printPlayer(player, num) {
     // console.log(player)
     const bench = player.active ? "" : "-bench";
-    const teamstr = padString(`${player.team}(${player.year}/${player.week})`, 35);
+    const teamstr = padString(`${player.team}(${player.owner})(${player.year}/${player.week})`, 35);
     const playerstr = padString(`${player.playerName}(${player.position}${bench})`, 20);
     console.log(`${num + 1}) ${teamstr} ${playerstr} - ${player.playerPoints}`);
 }
@@ -389,7 +390,7 @@ async function run() {
 
     // mapNegativePlayers(games);
 
-    // getTopGames(games, 5, "Top Player On Bench", gamesMaxPlayerOnBench, printFull);
+    getTopGames(games, 5, "Top Player On Bench", gamesMaxPlayerOnBench, printFull);
     getTopGames(games, 5, "Top Player Active", gamesMaxPlayerActive, printFull);
     // getTopGames(games, 10, "Top Total Scores", gamesTotalScore, printBrief);
     // getTopGames(games, 10, "Highest Losing Scores", gamesHighestLosingScore, printBrief);

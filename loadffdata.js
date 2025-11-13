@@ -57,18 +57,23 @@ function sortNumsToString(num1, num2) {
 }
 
 
-function createGame(boxscore, team, opp) {
+function createGame(boxscore, team, opp, ownerMap) {
+    const teamName = boxscore.game[team.toLowerCase()].name;
+    const oppName = boxscore.game[opp.toLowerCase()].name;
+
     teamgame = {
         id: boxscore.game.id,
         year: boxscore.scoringPeriod.season,
         week: boxscore.scoringPeriod.ordinal,
-        name: boxscore.game[team.toLowerCase()].name,
+        name: teamName,
+        owner: ownerMap.get(teamName),
         pos: emptyPositions(),
         points: boxscore[`points${team}`].total.value.value,
         result: boxscore.game[`${team.toLowerCase()}Result`],
         opponent: {
             points: boxscore[`points${opp}`].total.value.value,
-            name: boxscore.game[opp.toLowerCase()].name
+            name: oppName,
+            owner: ownerMap.get(oppName)
         },
         bench: emptyPositions(),
     };
@@ -93,7 +98,7 @@ function createGame(boxscore, team, opp) {
 }
 
 
-async function loadgames(yearPath, games) {
+async function loadgames(yearPath, games, ownerMap) {
     console.log(yearPath);
     const fileList = fs.readdirSync(yearPath);
 
@@ -104,10 +109,26 @@ async function loadgames(yearPath, games) {
         const boxscore = JSON.parse(boxscoreString);
 
 
-        games.push(createGame(boxscore, "Home", "Away"));
-        games.push(createGame(boxscore, "Away", "Home"));
+        games.push(createGame(boxscore, "Home", "Away", ownerMap));
+        games.push(createGame(boxscore, "Away", "Home", ownerMap));
     });
     return games;
+}
+
+async function loadTeamInfo(leaguefile) {
+    const leaguestring = fs.readFileSync(leaguefile);
+    const league = JSON.parse(leaguestring);
+
+    const teamMap = new Map();
+
+    league.divisions.forEach(division => {
+        division.teams.forEach(team => {
+            // console.log(`Team: ${team.name}, Owner: ${team.owners[0].displayName}`);
+            teamMap.set(team.name, team.owners[0].displayName);
+        });
+    });
+
+    return teamMap;
 }
 
 
@@ -117,7 +138,9 @@ async function loadYears(years) {
     for (year of years) {
         console.log(`Loading FF: ${year}`)
         // years.forEach (  async (year) =>  {
-        loadgames(`data/${year}/boxscores`, games);
+
+        ownerMap = await loadTeamInfo(`data/${year}/${year}_standings.json`)
+        loadgames(`data/${year}/boxscores`, games, ownerMap);
     };
 
     return games;
