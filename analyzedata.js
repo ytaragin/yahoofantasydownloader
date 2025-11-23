@@ -31,7 +31,7 @@ function printGame(teamgame, brief, num) {
     // let teamname = getTeamName(leagueData,teamgame);
     console.log(`Year: ${teamgame.year} Week: ${teamgame.week} Team: ${teamgame.name}(${teamgame.owner})`);
     // console.log(`ID: ${teamgame.id}`)
-    console.log(`Opponent: ${teamgame.opponent.name} Result: ${teamgame.result} (${teamgame.points}-${teamgame.opponent.points})`);
+    console.log(`Opponent: ${teamgame.opponent.name}(${teamgame.opponent.owner}) Result: ${teamgame.result} (${teamgame.points}-${teamgame.opponent.points})`);
     //console.log(teamgame);
     if ((brief !== undefined) && !brief) {
         console.log("--------Starters--------");
@@ -186,6 +186,15 @@ function gamesHighestLosingScore(games) {
 
     return games
 
+}
+
+
+function gamesHighestScoringCloseGames(games) {
+    games = games.filter(f => f.result.toLowerCase().startsWith('w'))
+    games = games.filter(f => (f.points - f.opponent.points) <= 5)
+    games.sort((first, second) => ((second.points + second.opponent.points) - (first.points + first.opponent.points)))
+
+    return games;
 }
 
 
@@ -390,8 +399,8 @@ async function run() {
 
     // mapNegativePlayers(games);
 
-    getTopGames(games, 5, "Top Player On Bench", gamesMaxPlayerOnBench, printFull);
-    getTopGames(games, 5, "Top Player Active", gamesMaxPlayerActive, printFull);
+    // getTopGames(games, 5, "Top Player On Bench", gamesMaxPlayerOnBench, printFull);
+    // getTopGames(games, 5, "Top Player Active", gamesMaxPlayerActive, printFull);
     // getTopGames(games, 10, "Top Total Scores", gamesTotalScore, printBrief);
     // getTopGames(games, 10, "Highest Losing Scores", gamesHighestLosingScore, printBrief);
     // getTopGames(games, 10, "Highest Scores", gamesHighestScores, printBrief);
@@ -400,9 +409,10 @@ async function run() {
     // getTopGames(games, 10, "Lowest Scores", gamesHighestScores, printFull);
 
 
-    getTopPlayerGames(games, 25, "Top Scoring Players", playersMostPoints);
-    getTopPlayerGames(games, 25, "Top Scoring Players On Bench", playersMostPointsOnBench);
+    // getTopPlayerGames(games, 25, "Top Scoring Players", playersMostPoints);
+    // getTopPlayerGames(games, 25, "Top Scoring Players On Bench", playersMostPointsOnBench);
 
+    getTopGames(games, 15, "Highest Scoring Close Games", gamesHighestScoringCloseGames, printBrief);
 
     //  negGames.forEach(g=>printGame(g, leagueData))
 
