@@ -213,6 +213,13 @@ function gamesLargestLossMargin(games) {
 }
 
 
+function playersMostPointsByPosition(position, playerList) {
+    playerList = playerList.filter(f => f.position === position);
+    return playerList.sort((first, second) => (second.playerPoints - first.playerPoints))
+}
+
+const playersMostPointsByPositionKicker = _.curry(playersMostPointsByPosition)("K");
+
 function playersMostPoints(playerList) {
     return playerList.sort((first, second) => (second.playerPoints - first.playerPoints))
 }
@@ -410,9 +417,10 @@ async function run() {
 
 
     // getTopPlayerGames(games, 25, "Top Scoring Players", playersMostPoints);
+    getTopPlayerGames(games, 20, "Top Scoring Kickers", playersMostPointsByPositionKicker);
     // getTopPlayerGames(games, 25, "Top Scoring Players On Bench", playersMostPointsOnBench);
 
-    getTopGames(games, 15, "Highest Scoring Close Games", gamesHighestScoringCloseGames, printBrief);
+    // getTopGames(games, 15, "Highest Scoring Close Games", gamesHighestScoringCloseGames, printBrief);
 
     //  negGames.forEach(g=>printGame(g, leagueData))
 
