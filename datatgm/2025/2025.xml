@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fantasy_content xml:lang="en-US" yahoo:uri="http://fantasysports.yahooapis.com/fantasy/v2/league/461.l.313501;out=metadata,settings,standings,scoreboard,teams,players,draftresults,transactions" time="371.32787704468ms" copyright="Certain Data by Sportradar, Stats Perform and Rotowire" refresh_rate="60" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">
+<fantasy_content xml:lang="en-US" yahoo:uri="http://fantasysports.yahooapis.com/fantasy/v2/league/461.l.313501;out=metadata,settings,standings,scoreboard,teams,players,draftresults,transactions" time="522.39584922791ms" copyright="Certain Data by Sportradar, Stats Perform and Rotowire" refresh_rate="60" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">
  <league>
   <league_key>461.l.313501</league_key>
   <league_id>313501</league_id>
@@ -8,27 +8,28 @@
   <logo_url>https://s.yimg.com/ep/cx/blendr/v2/image-avatar-football-trophy-buf-png_1721783391232.png</logo_url>
   <draft_status>postdraft</draft_status>
   <num_teams>12</num_teams>
-  <edit_key>15</edit_key>
+  <edit_key>17</edit_key>
   <weekly_deadline/>
   <roster_type>week</roster_type>
-  <league_update_timestamp>1765268977</league_update_timestamp>
+  <league_update_timestamp>1767081963</league_update_timestamp>
   <scoring_type>head</scoring_type>
   <league_type>private</league_type>
   <renew>449_240118</renew>
   <renewed/>
   <felo_tier>silver</felo_tier>
   <is_highscore></is_highscore>
-  <matchup_week>14</matchup_week>
+  <matchup_week>17</matchup_week>
   <iris_group_chat_id/>
   <short_invitation_url>https://football.fantasysports.yahoo.com/f1/313501/invitation?key=d82720b8355cdd03&amp;ikey=0f58ddda39401fc3</short_invitation_url>
   <allow_add_to_dl_extra_pos>1</allow_add_to_dl_extra_pos>
   <is_pro_league>0</is_pro_league>
   <is_cash_league>0</is_cash_league>
-  <current_week>15</current_week>
+  <current_week>17</current_week>
   <start_week>1</start_week>
   <start_date>2025-09-04</start_date>
   <end_week>17</end_week>
   <end_date>2025-12-29</end_date>
+  <is_finished>1</is_finished>
   <is_plus_league>0</is_plus_league>
   <game_code>nfl</game_code>
   <season>2025</season>
@@ -1172,64 +1173,6 @@
   <standings>
    <teams count="12">
     <team>
-     <team_key>461.l.313501.t.10</team_key>
-     <team_id>10</team_id>
-     <name>Let’s go Mets</name>
-     <url>https://football.fantasysports.yahoo.com/f1/313501/10</url>
-     <team_logos>
-      <team_logo>
-       <size>large</size>
-       <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_b.png</url>
-      </team_logo>
-     </team_logos>
-     <previous_season_team_rank>8</previous_season_team_rank>
-     <waiver_priority>7</waiver_priority>
-     <number_of_moves>12</number_of_moves>
-     <number_of_trades>0</number_of_trades>
-     <roster_adds>
-      <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
-      <value>0</value>
-     </roster_adds>
-     <clinched_playoffs>1</clinched_playoffs>
-     <league_scoring_type>head</league_scoring_type>
-     <draft_position>5</draft_position>
-     <has_draft_grade>1</has_draft_grade>
-     <draft_grade>A+</draft_grade>
-     <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/10/draftrecap</draft_recap_url>
-     <managers>
-      <manager>
-       <manager_id>10</manager_id>
-       <nickname>Benjamin</nickname>
-       <guid>ZAW4EBTRX6P4ONGSSRBSWDWDQQ</guid>
-       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-       <felo_score>747</felo_score>
-       <felo_tier>gold</felo_tier>
-      </manager>
-     </managers>
-     <team_points>
-      <coverage_type>season</coverage_type>
-      <season>2025</season>
-      <total>1646.68</total>
-     </team_points>
-     <team_standings>
-      <rank>1</rank>
-      <playoff_seed>1</playoff_seed>
-      <outcome_totals>
-       <wins>12</wins>
-       <losses>2</losses>
-       <ties>0</ties>
-       <percentage>.857</percentage>
-      </outcome_totals>
-      <streak>
-       <type>win</type>
-       <value>5</value>
-      </streak>
-      <points_for>1646.68</points_for>
-      <points_against>1448.52</points_against>
-     </team_standings>
-    </team>
-    <team>
      <team_key>461.l.313501.t.8</team_key>
      <team_id>8</team_id>
      <name>The Tatman</name>
@@ -1241,12 +1184,12 @@
       </team_logo>
      </team_logos>
      <previous_season_team_rank>5</previous_season_team_rank>
-     <waiver_priority>10</waiver_priority>
-     <number_of_moves>4</number_of_moves>
+     <waiver_priority>12</waiver_priority>
+     <number_of_moves>6</number_of_moves>
      <number_of_trades>0</number_of_trades>
      <roster_adds>
       <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
+      <coverage_value>18</coverage_value>
       <value>0</value>
      </roster_adds>
      <clinched_playoffs>1</clinched_playoffs>
@@ -1261,87 +1204,30 @@
        <nickname>Mike</nickname>
        <guid>YNI6ALQ2FT7MDJAUMR7UZSY3DE</guid>
        <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-       <felo_score>591</felo_score>
-       <felo_tier>bronze</felo_tier>
-      </manager>
-     </managers>
-     <team_points>
-      <coverage_type>season</coverage_type>
-      <season>2025</season>
-      <total>1668.64</total>
-     </team_points>
-     <team_standings>
-      <rank>2</rank>
-      <playoff_seed>2</playoff_seed>
-      <outcome_totals>
-       <wins>9</wins>
-       <losses>5</losses>
-       <ties>0</ties>
-       <percentage>.643</percentage>
-      </outcome_totals>
-      <streak>
-       <type>win</type>
-       <value>1</value>
-      </streak>
-      <points_for>1668.64</points_for>
-      <points_against>1372.24</points_against>
-     </team_standings>
-    </team>
-    <team>
-     <team_key>461.l.313501.t.2</team_key>
-     <team_id>2</team_id>
-     <name>Daniel-San</name>
-     <url>https://football.fantasysports.yahoo.com/f1/313501/2</url>
-     <team_logos>
-      <team_logo>
-       <size>large</size>
-       <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_6.png</url>
-      </team_logo>
-     </team_logos>
-     <previous_season_team_rank>3</previous_season_team_rank>
-     <waiver_priority>6</waiver_priority>
-     <number_of_moves>3</number_of_moves>
-     <number_of_trades>0</number_of_trades>
-     <roster_adds>
-      <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
-      <value>0</value>
-     </roster_adds>
-     <league_scoring_type>head</league_scoring_type>
-     <draft_position>10</draft_position>
-     <has_draft_grade>1</has_draft_grade>
-     <draft_grade>D-</draft_grade>
-     <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/2/draftrecap</draft_recap_url>
-     <managers>
-      <manager>
-       <manager_id>2</manager_id>
-       <nickname>Danielle</nickname>
-       <guid>PHFR62TTXHGQKRKECJ6NHZIR4I</guid>
-       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-       <felo_score>603</felo_score>
+       <felo_score>619</felo_score>
        <felo_tier>silver</felo_tier>
       </manager>
      </managers>
      <team_points>
       <coverage_type>season</coverage_type>
       <season>2025</season>
-      <total>1616.74</total>
+      <total>1827.54</total>
      </team_points>
      <team_standings>
-      <rank>3</rank>
-      <playoff_seed>3</playoff_seed>
+      <rank>1</rank>
+      <playoff_seed>2</playoff_seed>
       <outcome_totals>
-       <wins>8</wins>
-       <losses>6</losses>
+       <wins>10</wins>
+       <losses>5</losses>
        <ties>0</ties>
-       <percentage>.571</percentage>
+       <percentage>.667</percentage>
       </outcome_totals>
       <streak>
        <type>win</type>
        <value>2</value>
       </streak>
-      <points_for>1616.74</points_for>
-      <points_against>1625.68</points_against>
+      <points_for>1827.54</points_for>
+      <points_against>1489.98</points_against>
      </team_standings>
     </team>
     <team>
@@ -1361,9 +1247,10 @@
      <number_of_trades>0</number_of_trades>
      <roster_adds>
       <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
+      <coverage_value>18</coverage_value>
       <value>0</value>
      </roster_adds>
+     <clinched_playoffs>1</clinched_playoffs>
      <league_scoring_type>head</league_scoring_type>
      <draft_position>11</draft_position>
      <has_draft_grade>1</has_draft_grade>
@@ -1375,30 +1262,146 @@
        <nickname>jennifer</nickname>
        <guid>UZN34XZ4XYE5IM4JYY437CZKGI</guid>
        <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-       <felo_score>635</felo_score>
+       <felo_score>661</felo_score>
        <felo_tier>silver</felo_tier>
       </manager>
      </managers>
      <team_points>
       <coverage_type>season</coverage_type>
       <season>2025</season>
-      <total>1604.44</total>
+      <total>1766.94</total>
+     </team_points>
+     <team_standings>
+      <rank>2</rank>
+      <playoff_seed>4</playoff_seed>
+      <outcome_totals>
+       <wins>8</wins>
+       <losses>7</losses>
+       <ties>0</ties>
+       <percentage>.533</percentage>
+      </outcome_totals>
+      <streak>
+       <type>win</type>
+       <value>1</value>
+      </streak>
+      <points_for>1766.94</points_for>
+      <points_against>1680.14</points_against>
+     </team_standings>
+    </team>
+    <team>
+     <team_key>461.l.313501.t.2</team_key>
+     <team_id>2</team_id>
+     <name>Daniel-San</name>
+     <url>https://football.fantasysports.yahoo.com/f1/313501/2</url>
+     <team_logos>
+      <team_logo>
+       <size>large</size>
+       <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_6.png</url>
+      </team_logo>
+     </team_logos>
+     <previous_season_team_rank>3</previous_season_team_rank>
+     <waiver_priority>6</waiver_priority>
+     <number_of_moves>3</number_of_moves>
+     <number_of_trades>0</number_of_trades>
+     <roster_adds>
+      <coverage_type>week</coverage_type>
+      <coverage_value>18</coverage_value>
+      <value>0</value>
+     </roster_adds>
+     <clinched_playoffs>1</clinched_playoffs>
+     <league_scoring_type>head</league_scoring_type>
+     <draft_position>10</draft_position>
+     <has_draft_grade>1</has_draft_grade>
+     <draft_grade>D-</draft_grade>
+     <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/2/draftrecap</draft_recap_url>
+     <managers>
+      <manager>
+       <manager_id>2</manager_id>
+       <nickname>Danielle</nickname>
+       <guid>PHFR62TTXHGQKRKECJ6NHZIR4I</guid>
+       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
+       <felo_score>622</felo_score>
+       <felo_tier>silver</felo_tier>
+      </manager>
+     </managers>
+     <team_points>
+      <coverage_type>season</coverage_type>
+      <season>2025</season>
+      <total>1759.80</total>
+     </team_points>
+     <team_standings>
+      <rank>3</rank>
+      <playoff_seed>3</playoff_seed>
+      <outcome_totals>
+       <wins>9</wins>
+       <losses>6</losses>
+       <ties>0</ties>
+       <percentage>.600</percentage>
+      </outcome_totals>
+      <streak>
+       <type>win</type>
+       <value>3</value>
+      </streak>
+      <points_for>1759.80</points_for>
+      <points_against>1720.98</points_against>
+     </team_standings>
+    </team>
+    <team>
+     <team_key>461.l.313501.t.10</team_key>
+     <team_id>10</team_id>
+     <name>Let’s go Mets</name>
+     <url>https://football.fantasysports.yahoo.com/f1/313501/10</url>
+     <team_logos>
+      <team_logo>
+       <size>large</size>
+       <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_b.png</url>
+      </team_logo>
+     </team_logos>
+     <previous_season_team_rank>8</previous_season_team_rank>
+     <waiver_priority>7</waiver_priority>
+     <number_of_moves>12</number_of_moves>
+     <number_of_trades>0</number_of_trades>
+     <roster_adds>
+      <coverage_type>week</coverage_type>
+      <coverage_value>18</coverage_value>
+      <value>0</value>
+     </roster_adds>
+     <clinched_playoffs>1</clinched_playoffs>
+     <league_scoring_type>head</league_scoring_type>
+     <draft_position>5</draft_position>
+     <has_draft_grade>1</has_draft_grade>
+     <draft_grade>A+</draft_grade>
+     <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/10/draftrecap</draft_recap_url>
+     <managers>
+      <manager>
+       <manager_id>10</manager_id>
+       <nickname>Benjamin</nickname>
+       <guid>ZAW4EBTRX6P4ONGSSRBSWDWDQQ</guid>
+       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
+       <felo_score>736</felo_score>
+       <felo_tier>gold</felo_tier>
+      </manager>
+     </managers>
+     <team_points>
+      <coverage_type>season</coverage_type>
+      <season>2025</season>
+      <total>1767.94</total>
      </team_points>
      <team_standings>
       <rank>4</rank>
-      <playoff_seed>4</playoff_seed>
+      <playoff_seed>1</playoff_seed>
       <outcome_totals>
-       <wins>7</wins>
-       <losses>7</losses>
+       <wins>12</wins>
+       <losses>3</losses>
        <ties>0</ties>
-       <percentage>.500</percentage>
+       <percentage>.800</percentage>
       </outcome_totals>
       <streak>
        <type>loss</type>
        <value>1</value>
       </streak>
-      <points_for>1604.44</points_for>
-      <points_against>1558.76</points_against>
+      <points_for>1767.94</points_for>
+      <points_against>1585.62</points_against>
      </team_standings>
     </team>
     <team>
@@ -1414,11 +1417,11 @@
      </team_logos>
      <previous_season_team_rank>6</previous_season_team_rank>
      <waiver_priority>5</waiver_priority>
-     <number_of_moves>14</number_of_moves>
+     <number_of_moves>15</number_of_moves>
      <number_of_trades>0</number_of_trades>
      <roster_adds>
       <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
+      <coverage_value>18</coverage_value>
       <value>0</value>
      </roster_adds>
      <league_scoring_type>head</league_scoring_type>
@@ -1432,88 +1435,30 @@
        <nickname>Yitz</nickname>
        <guid>MYTD2GU5222A5F6W65AAJ5FZHA</guid>
        <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-       <felo_score>648</felo_score>
+       <felo_score>661</felo_score>
        <felo_tier>silver</felo_tier>
       </manager>
      </managers>
      <team_points>
       <coverage_type>season</coverage_type>
       <season>2025</season>
-      <total>1581.96</total>
+      <total>1691.16</total>
      </team_points>
      <team_standings>
       <rank>5</rank>
-      <playoff_seed>5</playoff_seed>
-      <outcome_totals>
-       <wins>7</wins>
-       <losses>7</losses>
-       <ties>0</ties>
-       <percentage>.500</percentage>
-      </outcome_totals>
-      <streak>
-       <type>loss</type>
-       <value>1</value>
-      </streak>
-      <points_for>1581.96</points_for>
-      <points_against>1629.42</points_against>
-     </team_standings>
-    </team>
-    <team>
-     <team_key>461.l.313501.t.1</team_key>
-     <team_id>1</team_id>
-     <name>Sarah's Favorite Brother</name>
-     <url>https://football.fantasysports.yahoo.com/f1/313501/1</url>
-     <team_logos>
-      <team_logo>
-       <size>large</size>
-       <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_o.png</url>
-      </team_logo>
-     </team_logos>
-     <previous_season_team_rank>10</previous_season_team_rank>
-     <waiver_priority>9</waiver_priority>
-     <number_of_moves>43</number_of_moves>
-     <number_of_trades>0</number_of_trades>
-     <roster_adds>
-      <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
-      <value>0</value>
-     </roster_adds>
-     <league_scoring_type>head</league_scoring_type>
-     <draft_position>1</draft_position>
-     <has_draft_grade>1</has_draft_grade>
-     <draft_grade>A-</draft_grade>
-     <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/1/draftrecap</draft_recap_url>
-     <managers>
-      <manager>
-       <manager_id>1</manager_id>
-       <nickname>Ozzie</nickname>
-       <guid>2UR5EOS65JVTGBKTXJG7XMSOYE</guid>
-       <is_commissioner>1</is_commissioner>
-       <image_url>https://s.yimg.com/ag/images/1b34d5a0-41d1-4589-9f14-c3b53eb456e4_64sq.jpg</image_url>
-       <felo_score>682</felo_score>
-       <felo_tier>silver</felo_tier>
-      </manager>
-     </managers>
-     <team_points>
-      <coverage_type>season</coverage_type>
-      <season>2025</season>
-      <total>1575.54</total>
-     </team_points>
-     <team_standings>
-      <rank>6</rank>
       <playoff_seed>6</playoff_seed>
       <outcome_totals>
-       <wins>7</wins>
+       <wins>8</wins>
        <losses>7</losses>
        <ties>0</ties>
-       <percentage>.500</percentage>
+       <percentage>.533</percentage>
       </outcome_totals>
       <streak>
-       <type>loss</type>
+       <type>win</type>
        <value>1</value>
       </streak>
-      <points_for>1575.54</points_for>
-      <points_against>1550.9</points_against>
+      <points_for>1691.16</points_for>
+      <points_against>1733.94</points_against>
      </team_standings>
     </team>
     <team>
@@ -1533,7 +1478,7 @@
      <number_of_trades>0</number_of_trades>
      <roster_adds>
       <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
+      <coverage_value>18</coverage_value>
       <value>0</value>
      </roster_adds>
      <league_scoring_type>head</league_scoring_type>
@@ -1547,30 +1492,145 @@
        <nickname>Miriam</nickname>
        <guid>B7LRN5VMDZ44XD3TOBBMCTJSKU</guid>
        <image_url>https://s.yimg.com/ag/images/4500/38102253581_65c557_64sq.jpg</image_url>
-       <felo_score>826</felo_score>
+       <felo_score>855</felo_score>
        <felo_tier>platinum</felo_tier>
       </manager>
      </managers>
      <team_points>
       <coverage_type>season</coverage_type>
       <season>2025</season>
-      <total>1555.04</total>
+      <total>1692.14</total>
+     </team_points>
+     <team_standings>
+      <rank>6</rank>
+      <playoff_seed>5</playoff_seed>
+      <outcome_totals>
+       <wins>8</wins>
+       <losses>7</losses>
+       <ties>0</ties>
+       <percentage>.533</percentage>
+      </outcome_totals>
+      <streak>
+       <type>win</type>
+       <value>2</value>
+      </streak>
+      <points_for>1692.14</points_for>
+      <points_against>1661.42</points_against>
+     </team_standings>
+    </team>
+    <team>
+     <team_key>461.l.313501.t.11</team_key>
+     <team_id>11</team_id>
+     <name>MINI YITZ</name>
+     <url>https://football.fantasysports.yahoo.com/f1/313501/11</url>
+     <team_logos>
+      <team_logo>
+       <size>large</size>
+       <url>https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/f979e7b57d9f4c44a8a4be5601cfb43cff8fbcff4adfa5a8a29a3782ec94cf9c.jpg</url>
+      </team_logo>
+     </team_logos>
+     <previous_season_team_rank>7</previous_season_team_rank>
+     <waiver_priority>11</waiver_priority>
+     <number_of_moves>37</number_of_moves>
+     <number_of_trades>0</number_of_trades>
+     <roster_adds>
+      <coverage_type>week</coverage_type>
+      <coverage_value>18</coverage_value>
+      <value>0</value>
+     </roster_adds>
+     <league_scoring_type>head</league_scoring_type>
+     <draft_position>12</draft_position>
+     <has_draft_grade>1</has_draft_grade>
+     <draft_grade>C</draft_grade>
+     <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/11/draftrecap</draft_recap_url>
+     <managers>
+      <manager>
+       <manager_id>11</manager_id>
+       <nickname>Joey</nickname>
+       <guid>O3K5ZL53SITWJGIQNLTUSIAJIQ</guid>
+       <image_url>https://s.yimg.com/ag/images/f7345206-b8f9-4f54-a91a-aa29fb84c4c3My_64sq.jpg</image_url>
+       <felo_score>578</felo_score>
+       <felo_tier>bronze</felo_tier>
+      </manager>
+     </managers>
+     <team_points>
+      <coverage_type>season</coverage_type>
+      <season>2025</season>
+      <total>1783.24</total>
      </team_points>
      <team_standings>
       <rank>7</rank>
       <playoff_seed>7</playoff_seed>
       <outcome_totals>
        <wins>7</wins>
-       <losses>7</losses>
+       <losses>8</losses>
        <ties>0</ties>
-       <percentage>.500</percentage>
+       <percentage>.467</percentage>
       </outcome_totals>
       <streak>
        <type>win</type>
        <value>1</value>
       </streak>
-      <points_for>1555.04</points_for>
-      <points_against>1540.16</points_against>
+      <points_for>1783.24</points_for>
+      <points_against>1671.76</points_against>
+     </team_standings>
+    </team>
+    <team>
+     <team_key>461.l.313501.t.1</team_key>
+     <team_id>1</team_id>
+     <name>Sarah's Favorite Brother</name>
+     <url>https://football.fantasysports.yahoo.com/f1/313501/1</url>
+     <team_logos>
+      <team_logo>
+       <size>large</size>
+       <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_o.png</url>
+      </team_logo>
+     </team_logos>
+     <previous_season_team_rank>10</previous_season_team_rank>
+     <waiver_priority>9</waiver_priority>
+     <number_of_moves>45</number_of_moves>
+     <number_of_trades>0</number_of_trades>
+     <roster_adds>
+      <coverage_type>week</coverage_type>
+      <coverage_value>18</coverage_value>
+      <value>0</value>
+     </roster_adds>
+     <league_scoring_type>head</league_scoring_type>
+     <draft_position>1</draft_position>
+     <has_draft_grade>1</has_draft_grade>
+     <draft_grade>A-</draft_grade>
+     <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/1/draftrecap</draft_recap_url>
+     <managers>
+      <manager>
+       <manager_id>1</manager_id>
+       <nickname>Ozzie</nickname>
+       <guid>2UR5EOS65JVTGBKTXJG7XMSOYE</guid>
+       <is_commissioner>1</is_commissioner>
+       <image_url>https://s.yimg.com/ag/images/1b34d5a0-41d1-4589-9f14-c3b53eb456e4_64sq.jpg</image_url>
+       <felo_score>590</felo_score>
+       <felo_tier>bronze</felo_tier>
+      </manager>
+     </managers>
+     <team_points>
+      <coverage_type>season</coverage_type>
+      <season>2025</season>
+      <total>1693.28</total>
+     </team_points>
+     <team_standings>
+      <rank>8</rank>
+      <playoff_seed>8</playoff_seed>
+      <outcome_totals>
+       <wins>7</wins>
+       <losses>8</losses>
+       <ties>0</ties>
+       <percentage>.467</percentage>
+      </outcome_totals>
+      <streak>
+       <type>loss</type>
+       <value>2</value>
+      </streak>
+      <points_for>1693.28</points_for>
+      <points_against>1709.8</points_against>
      </team_standings>
     </team>
     <team>
@@ -1591,7 +1651,7 @@
      <number_of_trades>0</number_of_trades>
      <roster_adds>
       <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
+      <coverage_value>18</coverage_value>
       <value>0</value>
      </roster_adds>
      <league_scoring_type>head</league_scoring_type>
@@ -1606,30 +1666,29 @@
        <guid>FIZFZNY3L5PYUZPNO5CEE6FK3M</guid>
        <is_current_login>1</is_current_login>
        <image_url>https://s.yimg.com/ag/images/4537/24911308368_620cd6_64sq.jpg</image_url>
-       <felo_score>555</felo_score>
+       <felo_score>550</felo_score>
        <felo_tier>bronze</felo_tier>
       </manager>
      </managers>
      <team_points>
       <coverage_type>season</coverage_type>
       <season>2025</season>
-      <total>1474.74</total>
+      <total>1596.12</total>
      </team_points>
      <team_standings>
-      <rank>8</rank>
-      <playoff_seed>8</playoff_seed>
+      <rank>9</rank>
       <outcome_totals>
        <wins>7</wins>
-       <losses>7</losses>
+       <losses>8</losses>
        <ties>0</ties>
-       <percentage>.500</percentage>
+       <percentage>.467</percentage>
       </outcome_totals>
       <streak>
-       <type>win</type>
+       <type>loss</type>
        <value>1</value>
       </streak>
-      <points_for>1474.74</points_for>
-      <points_against>1526.28</points_against>
+      <points_for>1596.12</points_for>
+      <points_against>1688.78</points_against>
      </team_standings>
     </team>
     <team>
@@ -1649,7 +1708,7 @@
      <number_of_trades>0</number_of_trades>
      <roster_adds>
       <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
+      <coverage_value>18</coverage_value>
       <value>0</value>
      </roster_adds>
      <league_scoring_type>head</league_scoring_type>
@@ -1670,78 +1729,22 @@
      <team_points>
       <coverage_type>season</coverage_type>
       <season>2025</season>
-      <total>1410.08</total>
-     </team_points>
-     <team_standings>
-      <rank>9</rank>
-      <outcome_totals>
-       <wins>7</wins>
-       <losses>7</losses>
-       <ties>0</ties>
-       <percentage>.500</percentage>
-      </outcome_totals>
-      <streak>
-       <type>win</type>
-       <value>1</value>
-      </streak>
-      <points_for>1410.08</points_for>
-      <points_against>1517.4</points_against>
-     </team_standings>
-    </team>
-    <team>
-     <team_key>461.l.313501.t.11</team_key>
-     <team_id>11</team_id>
-     <name>MINI YITZ</name>
-     <url>https://football.fantasysports.yahoo.com/f1/313501/11</url>
-     <team_logos>
-      <team_logo>
-       <size>large</size>
-       <url>https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/f979e7b57d9f4c44a8a4be5601cfb43cff8fbcff4adfa5a8a29a3782ec94cf9c.jpg</url>
-      </team_logo>
-     </team_logos>
-     <previous_season_team_rank>7</previous_season_team_rank>
-     <waiver_priority>11</waiver_priority>
-     <number_of_moves>35</number_of_moves>
-     <number_of_trades>0</number_of_trades>
-     <roster_adds>
-      <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
-      <value>0</value>
-     </roster_adds>
-     <league_scoring_type>head</league_scoring_type>
-     <draft_position>12</draft_position>
-     <has_draft_grade>1</has_draft_grade>
-     <draft_grade>C</draft_grade>
-     <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/11/draftrecap</draft_recap_url>
-     <managers>
-      <manager>
-       <manager_id>11</manager_id>
-       <nickname>Joey</nickname>
-       <guid>O3K5ZL53SITWJGIQNLTUSIAJIQ</guid>
-       <image_url>https://s.yimg.com/ag/images/f7345206-b8f9-4f54-a91a-aa29fb84c4c3My_64sq.jpg</image_url>
-       <felo_score>582</felo_score>
-       <felo_tier>bronze</felo_tier>
-      </manager>
-     </managers>
-     <team_points>
-      <coverage_type>season</coverage_type>
-      <season>2025</season>
-      <total>1677.62</total>
+      <total>1514.60</total>
      </team_points>
      <team_standings>
       <rank>10</rank>
       <outcome_totals>
-       <wins>6</wins>
+       <wins>7</wins>
        <losses>8</losses>
        <ties>0</ties>
-       <percentage>.429</percentage>
+       <percentage>.467</percentage>
       </outcome_totals>
       <streak>
        <type>loss</type>
-       <value>4</value>
+       <value>1</value>
       </streak>
-      <points_for>1677.62</points_for>
-      <points_against>1601.76</points_against>
+      <points_for>1514.60</points_for>
+      <points_against>1626.6</points_against>
      </team_standings>
     </team>
     <team>
@@ -1756,12 +1759,12 @@
       </team_logo>
      </team_logos>
      <previous_season_team_rank>11</previous_season_team_rank>
-     <waiver_priority>12</waiver_priority>
-     <number_of_moves>21</number_of_moves>
+     <waiver_priority>10</waiver_priority>
+     <number_of_moves>22</number_of_moves>
      <number_of_trades>0</number_of_trades>
      <roster_adds>
       <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
+      <coverage_value>18</coverage_value>
       <value>0</value>
      </roster_adds>
      <league_scoring_type>head</league_scoring_type>
@@ -1775,29 +1778,29 @@
        <nickname>Richard</nickname>
        <guid>C6TZGRGBFNGJPQT3JSYLVPUDAQ</guid>
        <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-       <felo_score>563</felo_score>
+       <felo_score>555</felo_score>
        <felo_tier>bronze</felo_tier>
       </manager>
      </managers>
      <team_points>
       <coverage_type>season</coverage_type>
       <season>2025</season>
-      <total>1518.20</total>
+      <total>1613.50</total>
      </team_points>
      <team_standings>
       <rank>11</rank>
       <outcome_totals>
        <wins>5</wins>
-       <losses>9</losses>
+       <losses>10</losses>
        <ties>0</ties>
-       <percentage>.357</percentage>
+       <percentage>.333</percentage>
       </outcome_totals>
       <streak>
        <type>loss</type>
-       <value>1</value>
+       <value>2</value>
       </streak>
-      <points_for>1518.20</points_for>
-      <points_against>1629.92</points_against>
+      <points_for>1613.50</points_for>
+      <points_against>1772.98</points_against>
      </team_standings>
     </team>
     <team>
@@ -1817,7 +1820,7 @@
      <number_of_trades>0</number_of_trades>
      <roster_adds>
       <coverage_type>week</coverage_type>
-      <coverage_value>15</coverage_value>
+      <coverage_value>18</coverage_value>
       <value>0</value>
      </roster_adds>
      <league_scoring_type>head</league_scoring_type>
@@ -1831,45 +1834,59 @@
        <nickname>Jonathan G</nickname>
        <guid>MFLWZBR7V7D3TQKWX5ZFXX3CUM</guid>
        <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-       <felo_score>488</felo_score>
+       <felo_score>482</felo_score>
        <felo_tier>bronze</felo_tier>
       </manager>
      </managers>
      <team_points>
       <coverage_type>season</coverage_type>
       <season>2025</season>
-      <total>1212.80</total>
+      <total>1282.80</total>
      </team_points>
      <team_standings>
       <rank>12</rank>
       <outcome_totals>
        <wins>2</wins>
-       <losses>12</losses>
+       <losses>13</losses>
        <ties>0</ties>
-       <percentage>.143</percentage>
+       <percentage>.133</percentage>
       </outcome_totals>
       <streak>
        <type>loss</type>
-       <value>11</value>
+       <value>12</value>
       </streak>
-      <points_for>1212.80</points_for>
-      <points_against>1541.44</points_against>
+      <points_for>1282.80</points_for>
+      <points_against>1647.06</points_against>
      </team_standings>
     </team>
    </teams>
   </standings>
   <scoreboard>
-   <week>15</week>
-   <matchups count="6">
+   <week>17</week>
+   <matchups count="4">
     <matchup>
-     <week>15</week>
-     <week_start>2025-12-09</week_start>
-     <week_end>2025-12-15</week_end>
-     <status>midevent</status>
-     <is_playoffs>0</is_playoffs>
-     <is_consolation>0</is_consolation>
+     <week>17</week>
+     <week_start>2025-12-23</week_start>
+     <week_end>2025-12-29</week_end>
+     <status>postevent</status>
+     <is_playoffs>1</is_playoffs>
+     <is_consolation>1</is_consolation>
      <is_matchup_of_the_week>0</is_matchup_of_the_week>
-     <is_matchup_recap_available>0</is_matchup_recap_available>
+     <is_matchup_recap_available>1</is_matchup_recap_available>
+     <matchup_recap_url>https://football.fantasysports.yahoo.com/f1/313501/recap?week=17&amp;mid1=1&amp;mid2=11</matchup_recap_url>
+     <matchup_recap_title>MINI YITZ Emerges Victorious over Sarah's Favorite Brother in Week 17 Matchup</matchup_recap_title>
+     <matchup_grades>
+      <matchup_grade>
+       <team_key>461.l.313501.t.1</team_key>
+       <grade>D+</grade>
+      </matchup_grade>
+      <matchup_grade>
+       <team_key>461.l.313501.t.11</team_key>
+       <grade>B-</grade>
+      </matchup_grade>
+     </matchup_grades>
+     <is_tied>0</is_tied>
+     <winner_team_key>461.l.313501.t.11</winner_team_key>
      <teams count="2">
       <team>
        <team_key>461.l.313501.t.1</team_key>
@@ -1884,11 +1901,11 @@
        </team_logos>
        <previous_season_team_rank>10</previous_season_team_rank>
        <waiver_priority>9</waiver_priority>
-       <number_of_moves>43</number_of_moves>
+       <number_of_moves>45</number_of_moves>
        <number_of_trades>0</number_of_trades>
        <roster_adds>
         <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
+        <coverage_value>18</coverage_value>
         <value>0</value>
        </roster_adds>
        <league_scoring_type>head</league_scoring_type>
@@ -1903,81 +1920,94 @@
          <guid>2UR5EOS65JVTGBKTXJG7XMSOYE</guid>
          <is_commissioner>1</is_commissioner>
          <image_url>https://s.yimg.com/ag/images/1b34d5a0-41d1-4589-9f14-c3b53eb456e4_64sq.jpg</image_url>
-         <felo_score>682</felo_score>
-         <felo_tier>silver</felo_tier>
-        </manager>
-       </managers>
-       <win_probability>0.41</win_probability>
-       <team_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
-       </team_points>
-       <team_projected_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>115.61</total>
-       </team_projected_points>
-      </team>
-      <team>
-       <team_key>461.l.313501.t.8</team_key>
-       <team_id>8</team_id>
-       <name>The Tatman</name>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/8</url>
-       <team_logos>
-        <team_logo>
-         <size>large</size>
-         <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_3.png</url>
-        </team_logo>
-       </team_logos>
-       <previous_season_team_rank>5</previous_season_team_rank>
-       <waiver_priority>10</waiver_priority>
-       <number_of_moves>4</number_of_moves>
-       <number_of_trades>0</number_of_trades>
-       <roster_adds>
-        <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
-        <value>0</value>
-       </roster_adds>
-       <clinched_playoffs>1</clinched_playoffs>
-       <league_scoring_type>head</league_scoring_type>
-       <draft_position>2</draft_position>
-       <has_draft_grade>1</has_draft_grade>
-       <draft_grade>B-</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/8/draftrecap</draft_recap_url>
-       <managers>
-        <manager>
-         <manager_id>8</manager_id>
-         <nickname>Mike</nickname>
-         <guid>YNI6ALQ2FT7MDJAUMR7UZSY3DE</guid>
-         <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-         <felo_score>591</felo_score>
+         <felo_score>590</felo_score>
          <felo_tier>bronze</felo_tier>
         </manager>
        </managers>
-       <win_probability>0.59</win_probability>
+       <win_probability>0</win_probability>
        <team_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
+        <week>17</week>
+        <total>70.28</total>
        </team_points>
        <team_projected_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>126.27</total>
+        <week>17</week>
+        <total>73.12</total>
+       </team_projected_points>
+      </team>
+      <team>
+       <team_key>461.l.313501.t.11</team_key>
+       <team_id>11</team_id>
+       <name>MINI YITZ</name>
+       <url>https://football.fantasysports.yahoo.com/f1/313501/11</url>
+       <team_logos>
+        <team_logo>
+         <size>large</size>
+         <url>https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/f979e7b57d9f4c44a8a4be5601cfb43cff8fbcff4adfa5a8a29a3782ec94cf9c.jpg</url>
+        </team_logo>
+       </team_logos>
+       <previous_season_team_rank>7</previous_season_team_rank>
+       <waiver_priority>11</waiver_priority>
+       <number_of_moves>37</number_of_moves>
+       <number_of_trades>0</number_of_trades>
+       <roster_adds>
+        <coverage_type>week</coverage_type>
+        <coverage_value>18</coverage_value>
+        <value>0</value>
+       </roster_adds>
+       <league_scoring_type>head</league_scoring_type>
+       <draft_position>12</draft_position>
+       <has_draft_grade>1</has_draft_grade>
+       <draft_grade>C</draft_grade>
+       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/11/draftrecap</draft_recap_url>
+       <managers>
+        <manager>
+         <manager_id>11</manager_id>
+         <nickname>Joey</nickname>
+         <guid>O3K5ZL53SITWJGIQNLTUSIAJIQ</guid>
+         <image_url>https://s.yimg.com/ag/images/f7345206-b8f9-4f54-a91a-aa29fb84c4c3My_64sq.jpg</image_url>
+         <felo_score>578</felo_score>
+         <felo_tier>bronze</felo_tier>
+        </manager>
+       </managers>
+       <win_probability>1</win_probability>
+       <team_points>
+        <coverage_type>week</coverage_type>
+        <week>17</week>
+        <total>93.66</total>
+       </team_points>
+       <team_projected_points>
+        <coverage_type>week</coverage_type>
+        <week>17</week>
+        <total>128.24</total>
        </team_projected_points>
       </team>
      </teams>
     </matchup>
     <matchup>
-     <week>15</week>
-     <week_start>2025-12-09</week_start>
-     <week_end>2025-12-15</week_end>
-     <status>midevent</status>
-     <is_playoffs>0</is_playoffs>
+     <week>17</week>
+     <week_start>2025-12-23</week_start>
+     <week_end>2025-12-29</week_end>
+     <status>postevent</status>
+     <is_playoffs>1</is_playoffs>
      <is_consolation>0</is_consolation>
      <is_matchup_of_the_week>0</is_matchup_of_the_week>
-     <is_matchup_recap_available>0</is_matchup_recap_available>
+     <is_matchup_recap_available>1</is_matchup_recap_available>
+     <matchup_recap_url>https://football.fantasysports.yahoo.com/f1/313501/recap?week=17&amp;mid1=2&amp;mid2=10</matchup_recap_url>
+     <matchup_recap_title>Daniel-San Emerges Victorious over Let’s go Mets in Week 17 Matchup</matchup_recap_title>
+     <matchup_grades>
+      <matchup_grade>
+       <team_key>461.l.313501.t.2</team_key>
+       <grade>B</grade>
+      </matchup_grade>
+      <matchup_grade>
+       <team_key>461.l.313501.t.10</team_key>
+       <grade>C-</grade>
+      </matchup_grade>
+     </matchup_grades>
+     <is_tied>0</is_tied>
+     <winner_team_key>461.l.313501.t.2</winner_team_key>
      <teams count="2">
       <team>
        <team_key>461.l.313501.t.2</team_key>
@@ -1996,9 +2026,10 @@
        <number_of_trades>0</number_of_trades>
        <roster_adds>
         <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
+        <coverage_value>18</coverage_value>
         <value>0</value>
        </roster_adds>
+       <clinched_playoffs>1</clinched_playoffs>
        <league_scoring_type>head</league_scoring_type>
        <draft_position>10</draft_position>
        <has_draft_grade>1</has_draft_grade>
@@ -2010,340 +2041,20 @@
          <nickname>Danielle</nickname>
          <guid>PHFR62TTXHGQKRKECJ6NHZIR4I</guid>
          <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-         <felo_score>603</felo_score>
+         <felo_score>622</felo_score>
          <felo_tier>silver</felo_tier>
         </manager>
        </managers>
-       <win_probability>0.61</win_probability>
+       <win_probability>1</win_probability>
        <team_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
+        <week>17</week>
+        <total>99.60</total>
        </team_points>
        <team_projected_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>118.68</total>
-       </team_projected_points>
-      </team>
-      <team>
-       <team_key>461.l.313501.t.3</team_key>
-       <team_id>3</team_id>
-       <name>I WEAR MY SUNGLASSES</name>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/3</url>
-       <team_logos>
-        <team_logo>
-         <size>large</size>
-         <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_12.png</url>
-        </team_logo>
-       </team_logos>
-       <previous_season_team_rank>11</previous_season_team_rank>
-       <waiver_priority>12</waiver_priority>
-       <number_of_moves>21</number_of_moves>
-       <number_of_trades>0</number_of_trades>
-       <roster_adds>
-        <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
-        <value>0</value>
-       </roster_adds>
-       <league_scoring_type>head</league_scoring_type>
-       <draft_position>6</draft_position>
-       <has_draft_grade>1</has_draft_grade>
-       <draft_grade>D</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/3/draftrecap</draft_recap_url>
-       <managers>
-        <manager>
-         <manager_id>3</manager_id>
-         <nickname>Richard</nickname>
-         <guid>C6TZGRGBFNGJPQT3JSYLVPUDAQ</guid>
-         <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-         <felo_score>563</felo_score>
-         <felo_tier>bronze</felo_tier>
-        </manager>
-       </managers>
-       <win_probability>0.39</win_probability>
-       <team_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
-       </team_points>
-       <team_projected_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>106.77</total>
-       </team_projected_points>
-      </team>
-     </teams>
-    </matchup>
-    <matchup>
-     <week>15</week>
-     <week_start>2025-12-09</week_start>
-     <week_end>2025-12-15</week_end>
-     <status>midevent</status>
-     <is_playoffs>0</is_playoffs>
-     <is_consolation>0</is_consolation>
-     <is_matchup_of_the_week>0</is_matchup_of_the_week>
-     <is_matchup_recap_available>0</is_matchup_recap_available>
-     <teams count="2">
-      <team>
-       <team_key>461.l.313501.t.4</team_key>
-       <team_id>4</team_id>
-       <name>Princess snappers</name>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/4</url>
-       <team_logos>
-        <team_logo>
-         <size>large</size>
-         <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_11.png</url>
-        </team_logo>
-       </team_logos>
-       <previous_season_team_rank>2</previous_season_team_rank>
-       <waiver_priority>1</waiver_priority>
-       <number_of_moves>4</number_of_moves>
-       <number_of_trades>0</number_of_trades>
-       <roster_adds>
-        <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
-        <value>0</value>
-       </roster_adds>
-       <league_scoring_type>head</league_scoring_type>
-       <draft_position>11</draft_position>
-       <has_draft_grade>1</has_draft_grade>
-       <draft_grade>D+</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/4/draftrecap</draft_recap_url>
-       <managers>
-        <manager>
-         <manager_id>4</manager_id>
-         <nickname>jennifer</nickname>
-         <guid>UZN34XZ4XYE5IM4JYY437CZKGI</guid>
-         <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-         <felo_score>635</felo_score>
-         <felo_tier>silver</felo_tier>
-        </manager>
-       </managers>
-       <win_probability>0.54</win_probability>
-       <team_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
-       </team_points>
-       <team_projected_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>118.21</total>
-       </team_projected_points>
-      </team>
-      <team>
-       <team_key>461.l.313501.t.12</team_key>
-       <team_id>12</team_id>
-       <name>House of the Rising Sun</name>
-       <is_owned_by_current_login>1</is_owned_by_current_login>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/12</url>
-       <team_logos>
-        <team_logo>
-         <size>large</size>
-         <url>https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/609ec83985d3715f9fcdcafb412ea84f04959998c82061a8038f214ccda66976.jpg</url>
-        </team_logo>
-       </team_logos>
-       <previous_season_team_rank>9</previous_season_team_rank>
-       <waiver_priority>8</waiver_priority>
-       <number_of_moves>14</number_of_moves>
-       <number_of_trades>0</number_of_trades>
-       <roster_adds>
-        <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
-        <value>0</value>
-       </roster_adds>
-       <league_scoring_type>head</league_scoring_type>
-       <draft_position>9</draft_position>
-       <has_draft_grade>1</has_draft_grade>
-       <draft_grade>B-</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/12/draftrecap</draft_recap_url>
-       <managers>
-        <manager>
-         <manager_id>12</manager_id>
-         <nickname>Yonatan Taragin</nickname>
-         <guid>FIZFZNY3L5PYUZPNO5CEE6FK3M</guid>
-         <is_current_login>1</is_current_login>
-         <image_url>https://s.yimg.com/ag/images/4537/24911308368_620cd6_64sq.jpg</image_url>
-         <felo_score>555</felo_score>
-         <felo_tier>bronze</felo_tier>
-        </manager>
-       </managers>
-       <win_probability>0.46</win_probability>
-       <team_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
-       </team_points>
-       <team_projected_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>113.45</total>
-       </team_projected_points>
-      </team>
-     </teams>
-    </matchup>
-    <matchup>
-     <week>15</week>
-     <week_start>2025-12-09</week_start>
-     <week_end>2025-12-15</week_end>
-     <status>midevent</status>
-     <is_playoffs>0</is_playoffs>
-     <is_consolation>0</is_consolation>
-     <is_matchup_of_the_week>0</is_matchup_of_the_week>
-     <is_matchup_recap_available>0</is_matchup_recap_available>
-     <teams count="2">
-      <team>
-       <team_key>461.l.313501.t.5</team_key>
-       <team_id>5</team_id>
-       <name>SGMDESIGNS</name>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/5</url>
-       <team_logos>
-        <team_logo>
-         <size>large</size>
-         <url>https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/55683113984_f33b01.jpg</url>
-        </team_logo>
-       </team_logos>
-       <previous_season_team_rank>4</previous_season_team_rank>
-       <waiver_priority>2</waiver_priority>
-       <number_of_moves>2</number_of_moves>
-       <number_of_trades>0</number_of_trades>
-       <roster_adds>
-        <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
-        <value>0</value>
-       </roster_adds>
-       <league_scoring_type>head</league_scoring_type>
-       <draft_position>7</draft_position>
-       <has_draft_grade>1</has_draft_grade>
-       <draft_grade>A-</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/5/draftrecap</draft_recap_url>
-       <managers>
-        <manager>
-         <manager_id>5</manager_id>
-         <nickname>Sarah</nickname>
-         <guid>DG6UXQRRABFKIWXOONO6PNZT54</guid>
-         <image_url>https://s.yimg.com/ag/images/4541/38985716831_c7098e_64sq.jpg</image_url>
-         <felo_score>640</felo_score>
-         <felo_tier>silver</felo_tier>
-        </manager>
-       </managers>
-       <win_probability>0.35</win_probability>
-       <team_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
-       </team_points>
-       <team_projected_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>98.56</total>
-       </team_projected_points>
-      </team>
-      <team>
-       <team_key>461.l.313501.t.9</team_key>
-       <team_id>9</team_id>
-       <name>Mifakdim</name>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/9</url>
-       <team_logos>
-        <team_logo>
-         <size>large</size>
-         <url>https://s.yimg.com/ep/cx/blendr/v2/image-coatof-arms-png_1721175496298.png</url>
-        </team_logo>
-       </team_logos>
-       <previous_season_team_rank>6</previous_season_team_rank>
-       <waiver_priority>5</waiver_priority>
-       <number_of_moves>14</number_of_moves>
-       <number_of_trades>0</number_of_trades>
-       <roster_adds>
-        <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
-        <value>0</value>
-       </roster_adds>
-       <league_scoring_type>head</league_scoring_type>
-       <draft_position>8</draft_position>
-       <has_draft_grade>1</has_draft_grade>
-       <draft_grade>D-</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/9/draftrecap</draft_recap_url>
-       <managers>
-        <manager>
-         <manager_id>9</manager_id>
-         <nickname>Yitz</nickname>
-         <guid>MYTD2GU5222A5F6W65AAJ5FZHA</guid>
-         <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-         <felo_score>648</felo_score>
-         <felo_tier>silver</felo_tier>
-        </manager>
-       </managers>
-       <win_probability>0.65</win_probability>
-       <team_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
-       </team_points>
-       <team_projected_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>116.03</total>
-       </team_projected_points>
-      </team>
-     </teams>
-    </matchup>
-    <matchup>
-     <week>15</week>
-     <week_start>2025-12-09</week_start>
-     <week_end>2025-12-15</week_end>
-     <status>midevent</status>
-     <is_playoffs>0</is_playoffs>
-     <is_consolation>0</is_consolation>
-     <is_matchup_of_the_week>0</is_matchup_of_the_week>
-     <is_matchup_recap_available>0</is_matchup_recap_available>
-     <teams count="2">
-      <team>
-       <team_key>461.l.313501.t.6</team_key>
-       <team_id>6</team_id>
-       <name>Tarshizan</name>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/6</url>
-       <team_logos>
-        <team_logo>
-         <size>large</size>
-         <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_5.png</url>
-        </team_logo>
-       </team_logos>
-       <previous_season_team_rank>1</previous_season_team_rank>
-       <waiver_priority>4</waiver_priority>
-       <number_of_moves>14</number_of_moves>
-       <number_of_trades>0</number_of_trades>
-       <roster_adds>
-        <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
-        <value>0</value>
-       </roster_adds>
-       <league_scoring_type>head</league_scoring_type>
-       <draft_position>3</draft_position>
-       <has_draft_grade>1</has_draft_grade>
-       <draft_grade>C</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/6/draftrecap</draft_recap_url>
-       <managers>
-        <manager>
-         <manager_id>6</manager_id>
-         <nickname>Miriam</nickname>
-         <guid>B7LRN5VMDZ44XD3TOBBMCTJSKU</guid>
-         <image_url>https://s.yimg.com/ag/images/4500/38102253581_65c557_64sq.jpg</image_url>
-         <felo_score>826</felo_score>
-         <felo_tier>platinum</felo_tier>
-        </manager>
-       </managers>
-       <win_probability>0.64</win_probability>
-       <team_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
-       </team_points>
-       <team_projected_points>
-        <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>123.62</total>
+        <week>17</week>
+        <total>100.91</total>
        </team_projected_points>
       </team>
       <team>
@@ -2363,7 +2074,7 @@
        <number_of_trades>0</number_of_trades>
        <roster_adds>
         <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
+        <coverage_value>18</coverage_value>
         <value>0</value>
        </roster_adds>
        <clinched_playoffs>1</clinched_playoffs>
@@ -2378,126 +2089,262 @@
          <nickname>Benjamin</nickname>
          <guid>ZAW4EBTRX6P4ONGSSRBSWDWDQQ</guid>
          <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-         <felo_score>747</felo_score>
+         <felo_score>736</felo_score>
          <felo_tier>gold</felo_tier>
         </manager>
        </managers>
-       <win_probability>0.36</win_probability>
+       <win_probability>0</win_probability>
        <team_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
+        <week>17</week>
+        <total>98.28</total>
        </team_points>
        <team_projected_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>106.34</total>
+        <week>17</week>
+        <total>111.17</total>
        </team_projected_points>
       </team>
      </teams>
     </matchup>
     <matchup>
-     <week>15</week>
-     <week_start>2025-12-09</week_start>
-     <week_end>2025-12-15</week_end>
-     <status>midevent</status>
-     <is_playoffs>0</is_playoffs>
+     <week>17</week>
+     <week_start>2025-12-23</week_start>
+     <week_end>2025-12-29</week_end>
+     <status>postevent</status>
+     <is_playoffs>1</is_playoffs>
      <is_consolation>0</is_consolation>
      <is_matchup_of_the_week>0</is_matchup_of_the_week>
-     <is_matchup_recap_available>0</is_matchup_recap_available>
+     <is_matchup_recap_available>1</is_matchup_recap_available>
+     <matchup_recap_url>https://football.fantasysports.yahoo.com/f1/313501/recap?week=17&amp;mid1=4&amp;mid2=8</matchup_recap_url>
+     <matchup_recap_title>The Tatman Emerges Victorious over Princess snappers in Week 17 Matchup</matchup_recap_title>
+     <matchup_grades>
+      <matchup_grade>
+       <team_key>461.l.313501.t.4</team_key>
+       <grade>D-</grade>
+      </matchup_grade>
+      <matchup_grade>
+       <team_key>461.l.313501.t.8</team_key>
+       <grade>A+</grade>
+      </matchup_grade>
+     </matchup_grades>
+     <is_tied>0</is_tied>
+     <winner_team_key>461.l.313501.t.8</winner_team_key>
      <teams count="2">
       <team>
-       <team_key>461.l.313501.t.7</team_key>
-       <team_id>7</team_id>
-       <name>The Suspendeders</name>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/7</url>
+       <team_key>461.l.313501.t.4</team_key>
+       <team_id>4</team_id>
+       <name>Princess snappers</name>
+       <url>https://football.fantasysports.yahoo.com/f1/313501/4</url>
+       <team_logos>
+        <team_logo>
+         <size>large</size>
+         <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_11.png</url>
+        </team_logo>
+       </team_logos>
+       <previous_season_team_rank>2</previous_season_team_rank>
+       <waiver_priority>1</waiver_priority>
+       <number_of_moves>4</number_of_moves>
+       <number_of_trades>0</number_of_trades>
+       <roster_adds>
+        <coverage_type>week</coverage_type>
+        <coverage_value>18</coverage_value>
+        <value>0</value>
+       </roster_adds>
+       <clinched_playoffs>1</clinched_playoffs>
+       <league_scoring_type>head</league_scoring_type>
+       <draft_position>11</draft_position>
+       <has_draft_grade>1</has_draft_grade>
+       <draft_grade>D+</draft_grade>
+       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/4/draftrecap</draft_recap_url>
+       <managers>
+        <manager>
+         <manager_id>4</manager_id>
+         <nickname>jennifer</nickname>
+         <guid>UZN34XZ4XYE5IM4JYY437CZKGI</guid>
+         <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
+         <felo_score>661</felo_score>
+         <felo_tier>silver</felo_tier>
+        </manager>
+       </managers>
+       <win_probability>0</win_probability>
+       <team_points>
+        <coverage_type>week</coverage_type>
+        <week>17</week>
+        <total>92.10</total>
+       </team_points>
+       <team_projected_points>
+        <coverage_type>week</coverage_type>
+        <week>17</week>
+        <total>130.45</total>
+       </team_projected_points>
+      </team>
+      <team>
+       <team_key>461.l.313501.t.8</team_key>
+       <team_id>8</team_id>
+       <name>The Tatman</name>
+       <url>https://football.fantasysports.yahoo.com/f1/313501/8</url>
        <team_logos>
         <team_logo>
          <size>large</size>
          <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_3.png</url>
         </team_logo>
        </team_logos>
-       <previous_season_team_rank>12</previous_season_team_rank>
-       <waiver_priority>3</waiver_priority>
-       <number_of_moves>0</number_of_moves>
+       <previous_season_team_rank>5</previous_season_team_rank>
+       <waiver_priority>12</waiver_priority>
+       <number_of_moves>6</number_of_moves>
        <number_of_trades>0</number_of_trades>
        <roster_adds>
         <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
+        <coverage_value>18</coverage_value>
         <value>0</value>
        </roster_adds>
+       <clinched_playoffs>1</clinched_playoffs>
        <league_scoring_type>head</league_scoring_type>
-       <draft_position>4</draft_position>
+       <draft_position>2</draft_position>
        <has_draft_grade>1</has_draft_grade>
        <draft_grade>B-</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/7/draftrecap</draft_recap_url>
+       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/8/draftrecap</draft_recap_url>
        <managers>
         <manager>
-         <manager_id>7</manager_id>
-         <nickname>Jonathan G</nickname>
-         <guid>MFLWZBR7V7D3TQKWX5ZFXX3CUM</guid>
+         <manager_id>8</manager_id>
+         <nickname>Mike</nickname>
+         <guid>YNI6ALQ2FT7MDJAUMR7UZSY3DE</guid>
          <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-         <felo_score>488</felo_score>
-         <felo_tier>bronze</felo_tier>
+         <felo_score>619</felo_score>
+         <felo_tier>silver</felo_tier>
         </manager>
        </managers>
-       <win_probability>0.29</win_probability>
+       <win_probability>1</win_probability>
        <team_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
+        <week>17</week>
+        <total>144.52</total>
        </team_points>
        <team_projected_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>89.05</total>
+        <week>17</week>
+        <total>124.98</total>
        </team_projected_points>
       </team>
+     </teams>
+    </matchup>
+    <matchup>
+     <week>17</week>
+     <week_start>2025-12-23</week_start>
+     <week_end>2025-12-29</week_end>
+     <status>postevent</status>
+     <is_playoffs>1</is_playoffs>
+     <is_consolation>1</is_consolation>
+     <is_matchup_of_the_week>0</is_matchup_of_the_week>
+     <is_matchup_recap_available>1</is_matchup_recap_available>
+     <matchup_recap_url>https://football.fantasysports.yahoo.com/f1/313501/recap?week=17&amp;mid1=6&amp;mid2=9</matchup_recap_url>
+     <matchup_recap_title>Mifakdim Emerges Victorious over Tarshizan in Week 17 Matchup</matchup_recap_title>
+     <matchup_grades>
+      <matchup_grade>
+       <team_key>461.l.313501.t.6</team_key>
+       <grade>D</grade>
+      </matchup_grade>
+      <matchup_grade>
+       <team_key>461.l.313501.t.9</team_key>
+       <grade>A-</grade>
+      </matchup_grade>
+     </matchup_grades>
+     <is_tied>0</is_tied>
+     <winner_team_key>461.l.313501.t.9</winner_team_key>
+     <teams count="2">
       <team>
-       <team_key>461.l.313501.t.11</team_key>
-       <team_id>11</team_id>
-       <name>MINI YITZ</name>
-       <url>https://football.fantasysports.yahoo.com/f1/313501/11</url>
+       <team_key>461.l.313501.t.6</team_key>
+       <team_id>6</team_id>
+       <name>Tarshizan</name>
+       <url>https://football.fantasysports.yahoo.com/f1/313501/6</url>
        <team_logos>
         <team_logo>
          <size>large</size>
-         <url>https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/f979e7b57d9f4c44a8a4be5601cfb43cff8fbcff4adfa5a8a29a3782ec94cf9c.jpg</url>
+         <url>https://s.yimg.com/cv/apiv2/default/nfl/nfl_5.png</url>
         </team_logo>
        </team_logos>
-       <previous_season_team_rank>7</previous_season_team_rank>
-       <waiver_priority>11</waiver_priority>
-       <number_of_moves>35</number_of_moves>
+       <previous_season_team_rank>1</previous_season_team_rank>
+       <waiver_priority>4</waiver_priority>
+       <number_of_moves>14</number_of_moves>
        <number_of_trades>0</number_of_trades>
        <roster_adds>
         <coverage_type>week</coverage_type>
-        <coverage_value>15</coverage_value>
+        <coverage_value>18</coverage_value>
         <value>0</value>
        </roster_adds>
        <league_scoring_type>head</league_scoring_type>
-       <draft_position>12</draft_position>
+       <draft_position>3</draft_position>
        <has_draft_grade>1</has_draft_grade>
        <draft_grade>C</draft_grade>
-       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/11/draftrecap</draft_recap_url>
+       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/6/draftrecap</draft_recap_url>
        <managers>
         <manager>
-         <manager_id>11</manager_id>
-         <nickname>Joey</nickname>
-         <guid>O3K5ZL53SITWJGIQNLTUSIAJIQ</guid>
-         <image_url>https://s.yimg.com/ag/images/f7345206-b8f9-4f54-a91a-aa29fb84c4c3My_64sq.jpg</image_url>
-         <felo_score>582</felo_score>
-         <felo_tier>bronze</felo_tier>
+         <manager_id>6</manager_id>
+         <nickname>Miriam</nickname>
+         <guid>B7LRN5VMDZ44XD3TOBBMCTJSKU</guid>
+         <image_url>https://s.yimg.com/ag/images/4500/38102253581_65c557_64sq.jpg</image_url>
+         <felo_score>855</felo_score>
+         <felo_tier>platinum</felo_tier>
         </manager>
        </managers>
-       <win_probability>0.71</win_probability>
+       <win_probability>0</win_probability>
        <team_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>0.00</total>
+        <week>17</week>
+        <total>84.72</total>
        </team_points>
        <team_projected_points>
         <coverage_type>week</coverage_type>
-        <week>15</week>
-        <total>113.12</total>
+        <week>17</week>
+        <total>106.30</total>
+       </team_projected_points>
+      </team>
+      <team>
+       <team_key>461.l.313501.t.9</team_key>
+       <team_id>9</team_id>
+       <name>Mifakdim</name>
+       <url>https://football.fantasysports.yahoo.com/f1/313501/9</url>
+       <team_logos>
+        <team_logo>
+         <size>large</size>
+         <url>https://s.yimg.com/ep/cx/blendr/v2/image-coatof-arms-png_1721175496298.png</url>
+        </team_logo>
+       </team_logos>
+       <previous_season_team_rank>6</previous_season_team_rank>
+       <waiver_priority>5</waiver_priority>
+       <number_of_moves>15</number_of_moves>
+       <number_of_trades>0</number_of_trades>
+       <roster_adds>
+        <coverage_type>week</coverage_type>
+        <coverage_value>18</coverage_value>
+        <value>0</value>
+       </roster_adds>
+       <league_scoring_type>head</league_scoring_type>
+       <draft_position>8</draft_position>
+       <has_draft_grade>1</has_draft_grade>
+       <draft_grade>D-</draft_grade>
+       <draft_recap_url>https://football.fantasysports.yahoo.com/f1/313501/9/draftrecap</draft_recap_url>
+       <managers>
+        <manager>
+         <manager_id>9</manager_id>
+         <nickname>Yitz</nickname>
+         <guid>MYTD2GU5222A5F6W65AAJ5FZHA</guid>
+         <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
+         <felo_score>661</felo_score>
+         <felo_tier>silver</felo_tier>
+        </manager>
+       </managers>
+       <win_probability>1</win_probability>
+       <team_points>
+        <coverage_type>week</coverage_type>
+        <week>17</week>
+        <total>133.00</total>
+       </team_points>
+       <team_projected_points>
+        <coverage_type>week</coverage_type>
+        <week>17</week>
+        <total>129.76</total>
        </team_projected_points>
       </team>
      </teams>
@@ -2518,11 +2365,11 @@
     </team_logos>
     <previous_season_team_rank>10</previous_season_team_rank>
     <waiver_priority>9</waiver_priority>
-    <number_of_moves>43</number_of_moves>
+    <number_of_moves>45</number_of_moves>
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <league_scoring_type>head</league_scoring_type>
@@ -2537,8 +2384,8 @@
       <guid>2UR5EOS65JVTGBKTXJG7XMSOYE</guid>
       <is_commissioner>1</is_commissioner>
       <image_url>https://s.yimg.com/ag/images/1b34d5a0-41d1-4589-9f14-c3b53eb456e4_64sq.jpg</image_url>
-      <felo_score>682</felo_score>
-      <felo_tier>silver</felo_tier>
+      <felo_score>590</felo_score>
+      <felo_tier>bronze</felo_tier>
      </manager>
     </managers>
    </team>
@@ -2559,9 +2406,10 @@
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
+    <clinched_playoffs>1</clinched_playoffs>
     <league_scoring_type>head</league_scoring_type>
     <draft_position>10</draft_position>
     <has_draft_grade>1</has_draft_grade>
@@ -2573,7 +2421,7 @@
       <nickname>Danielle</nickname>
       <guid>PHFR62TTXHGQKRKECJ6NHZIR4I</guid>
       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-      <felo_score>603</felo_score>
+      <felo_score>622</felo_score>
       <felo_tier>silver</felo_tier>
      </manager>
     </managers>
@@ -2590,12 +2438,12 @@
      </team_logo>
     </team_logos>
     <previous_season_team_rank>11</previous_season_team_rank>
-    <waiver_priority>12</waiver_priority>
-    <number_of_moves>21</number_of_moves>
+    <waiver_priority>10</waiver_priority>
+    <number_of_moves>22</number_of_moves>
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <league_scoring_type>head</league_scoring_type>
@@ -2609,7 +2457,7 @@
       <nickname>Richard</nickname>
       <guid>C6TZGRGBFNGJPQT3JSYLVPUDAQ</guid>
       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-      <felo_score>563</felo_score>
+      <felo_score>555</felo_score>
       <felo_tier>bronze</felo_tier>
      </manager>
     </managers>
@@ -2631,9 +2479,10 @@
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
+    <clinched_playoffs>1</clinched_playoffs>
     <league_scoring_type>head</league_scoring_type>
     <draft_position>11</draft_position>
     <has_draft_grade>1</has_draft_grade>
@@ -2645,7 +2494,7 @@
       <nickname>jennifer</nickname>
       <guid>UZN34XZ4XYE5IM4JYY437CZKGI</guid>
       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-      <felo_score>635</felo_score>
+      <felo_score>661</felo_score>
       <felo_tier>silver</felo_tier>
      </manager>
     </managers>
@@ -2667,7 +2516,7 @@
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <league_scoring_type>head</league_scoring_type>
@@ -2703,7 +2552,7 @@
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <league_scoring_type>head</league_scoring_type>
@@ -2717,7 +2566,7 @@
       <nickname>Miriam</nickname>
       <guid>B7LRN5VMDZ44XD3TOBBMCTJSKU</guid>
       <image_url>https://s.yimg.com/ag/images/4500/38102253581_65c557_64sq.jpg</image_url>
-      <felo_score>826</felo_score>
+      <felo_score>855</felo_score>
       <felo_tier>platinum</felo_tier>
      </manager>
     </managers>
@@ -2739,7 +2588,7 @@
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <league_scoring_type>head</league_scoring_type>
@@ -2753,7 +2602,7 @@
       <nickname>Jonathan G</nickname>
       <guid>MFLWZBR7V7D3TQKWX5ZFXX3CUM</guid>
       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-      <felo_score>488</felo_score>
+      <felo_score>482</felo_score>
       <felo_tier>bronze</felo_tier>
      </manager>
     </managers>
@@ -2770,12 +2619,12 @@
      </team_logo>
     </team_logos>
     <previous_season_team_rank>5</previous_season_team_rank>
-    <waiver_priority>10</waiver_priority>
-    <number_of_moves>4</number_of_moves>
+    <waiver_priority>12</waiver_priority>
+    <number_of_moves>6</number_of_moves>
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <clinched_playoffs>1</clinched_playoffs>
@@ -2790,8 +2639,8 @@
       <nickname>Mike</nickname>
       <guid>YNI6ALQ2FT7MDJAUMR7UZSY3DE</guid>
       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-      <felo_score>591</felo_score>
-      <felo_tier>bronze</felo_tier>
+      <felo_score>619</felo_score>
+      <felo_tier>silver</felo_tier>
      </manager>
     </managers>
    </team>
@@ -2808,11 +2657,11 @@
     </team_logos>
     <previous_season_team_rank>6</previous_season_team_rank>
     <waiver_priority>5</waiver_priority>
-    <number_of_moves>14</number_of_moves>
+    <number_of_moves>15</number_of_moves>
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <league_scoring_type>head</league_scoring_type>
@@ -2826,7 +2675,7 @@
       <nickname>Yitz</nickname>
       <guid>MYTD2GU5222A5F6W65AAJ5FZHA</guid>
       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-      <felo_score>648</felo_score>
+      <felo_score>661</felo_score>
       <felo_tier>silver</felo_tier>
      </manager>
     </managers>
@@ -2848,7 +2697,7 @@
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <clinched_playoffs>1</clinched_playoffs>
@@ -2863,7 +2712,7 @@
       <nickname>Benjamin</nickname>
       <guid>ZAW4EBTRX6P4ONGSSRBSWDWDQQ</guid>
       <image_url>https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg</image_url>
-      <felo_score>747</felo_score>
+      <felo_score>736</felo_score>
       <felo_tier>gold</felo_tier>
      </manager>
     </managers>
@@ -2881,11 +2730,11 @@
     </team_logos>
     <previous_season_team_rank>7</previous_season_team_rank>
     <waiver_priority>11</waiver_priority>
-    <number_of_moves>35</number_of_moves>
+    <number_of_moves>37</number_of_moves>
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <league_scoring_type>head</league_scoring_type>
@@ -2899,7 +2748,7 @@
       <nickname>Joey</nickname>
       <guid>O3K5ZL53SITWJGIQNLTUSIAJIQ</guid>
       <image_url>https://s.yimg.com/ag/images/f7345206-b8f9-4f54-a91a-aa29fb84c4c3My_64sq.jpg</image_url>
-      <felo_score>582</felo_score>
+      <felo_score>578</felo_score>
       <felo_tier>bronze</felo_tier>
      </manager>
     </managers>
@@ -2922,7 +2771,7 @@
     <number_of_trades>0</number_of_trades>
     <roster_adds>
      <coverage_type>week</coverage_type>
-     <coverage_value>15</coverage_value>
+     <coverage_value>18</coverage_value>
      <value>0</value>
     </roster_adds>
     <league_scoring_type>head</league_scoring_type>
@@ -2937,13 +2786,55 @@
       <guid>FIZFZNY3L5PYUZPNO5CEE6FK3M</guid>
       <is_current_login>1</is_current_login>
       <image_url>https://s.yimg.com/ag/images/4537/24911308368_620cd6_64sq.jpg</image_url>
-      <felo_score>555</felo_score>
+      <felo_score>550</felo_score>
       <felo_tier>bronze</felo_tier>
      </manager>
     </managers>
    </team>
   </teams>
   <players count="25">
+   <player>
+    <player_key>461.p.6763</player_key>
+    <player_id>6763</player_id>
+    <name>
+     <full>Philip Rivers</full>
+     <first>Philip</first>
+     <last>Rivers</last>
+     <ascii_first>Philip</ascii_first>
+     <ascii_last>Rivers</ascii_last>
+    </name>
+    <url>https://sports.yahoo.com/nfl/players/6763</url>
+    <editorial_player_key>nfl.p.6763</editorial_player_key>
+    <editorial_team_key>nfl.t.11</editorial_team_key>
+    <editorial_team_full_name>Indianapolis Colts</editorial_team_full_name>
+    <editorial_team_abbr>Ind</editorial_team_abbr>
+    <editorial_team_url>https://sports.yahoo.com/nfl/teams/indianapolis/</editorial_team_url>
+    <bye_weeks>
+     <week>11</week>
+    </bye_weeks>
+    <is_keeper>
+     <status></status>
+     <cost></cost>
+     <kept></kept>
+    </is_keeper>
+    <uniform_number>17</uniform_number>
+    <display_position>QB</display_position>
+    <headshot>
+     <url>https://s.yimg.com/iu/api/res/1.2/QdqHSqSUHP8qPtZ7KPXUiQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/12092025/6763.png</url>
+     <size>small</size>
+    </headshot>
+    <image_url>https://s.yimg.com/iu/api/res/1.2/QdqHSqSUHP8qPtZ7KPXUiQ--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/12092025/6763.png</image_url>
+    <is_undroppable>0</is_undroppable>
+    <position_type>O</position_type>
+    <primary_position>QB</primary_position>
+    <eligible_positions>
+     <position>QB</position>
+    </eligible_positions>
+    <eligible_positions_to_add/>
+    <has_player_notes>1</has_player_notes>
+    <has_recent_player_notes>1</has_recent_player_notes>
+    <player_notes_last_timestamp>1767036246</player_notes_last_timestamp>
+   </player>
    <player>
     <player_key>461.p.7200</player_key>
     <player_id>7200</player_id>
@@ -2983,7 +2874,7 @@
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1765167040</player_notes_last_timestamp>
+    <player_notes_last_timestamp>1766962383</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.7777</player_key>
@@ -3012,10 +2903,10 @@
     <uniform_number>89</uniform_number>
     <display_position>TE</display_position>
     <headshot>
-     <url>https://s.yimg.com/iu/api/res/1.2/aou5CR6EOCjzKnUqb7I54Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08302022/7777.png</url>
+     <url>https://s.yimg.com/iu/api/res/1.2/zcbZRQ9jDD6YeFoU3LFDYg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/12092025/7777.png</url>
      <size>small</size>
     </headshot>
-    <image_url>https://s.yimg.com/iu/api/res/1.2/aou5CR6EOCjzKnUqb7I54Q--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/08302022/7777.png</image_url>
+    <image_url>https://s.yimg.com/iu/api/res/1.2/zcbZRQ9jDD6YeFoU3LFDYg--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/12092025/7777.png</image_url>
     <is_undroppable>0</is_undroppable>
     <position_type>O</position_type>
     <primary_position>TE</primary_position>
@@ -3025,7 +2916,7 @@
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1765069433</player_notes_last_timestamp>
+    <player_notes_last_timestamp>1766699641</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.8432</player_key>
@@ -3066,7 +2957,7 @@
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1765170409</player_notes_last_timestamp>
+    <player_notes_last_timestamp>1766981420</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.8565</player_key>
@@ -3079,6 +2970,9 @@
      <ascii_last>Prater</ascii_last>
     </name>
     <url>https://sports.yahoo.com/nfl/players/8565</url>
+    <status>O</status>
+    <status_full>Out</status_full>
+    <injury_note>Quadriceps</injury_note>
     <editorial_player_key>nfl.p.8565</editorial_player_key>
     <editorial_team_key>nfl.t.2</editorial_team_key>
     <editorial_team_full_name>Buffalo Bills</editorial_team_full_name>
@@ -3104,10 +2998,11 @@
     <primary_position>K</primary_position>
     <eligible_positions>
      <position>K</position>
+     <position>IR</position>
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1765162944</player_notes_last_timestamp>
+    <player_notes_last_timestamp>1766768321</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.8795</player_key>
@@ -3187,7 +3082,7 @@
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1765126533</player_notes_last_timestamp>
+    <player_notes_last_timestamp>1766700055</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.9265</player_key>
@@ -3228,7 +3123,8 @@
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1765160759</player_notes_last_timestamp>
+    <has_recent_player_notes>1</has_recent_player_notes>
+    <player_notes_last_timestamp>1767072112</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.9526</player_key>
@@ -3489,9 +3385,6 @@
      <ascii_last>Taylor</ascii_last>
     </name>
     <url>https://sports.yahoo.com/nfl/players/24967</url>
-    <status>Q</status>
-    <status_full>Questionable</status_full>
-    <injury_note>Groin</injury_note>
     <editorial_player_key>nfl.p.24967</editorial_player_key>
     <editorial_team_key>nfl.t.20</editorial_team_key>
     <editorial_team_full_name>New York Jets</editorial_team_full_name>
@@ -3520,8 +3413,7 @@
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <has_recent_player_notes>1</has_recent_player_notes>
-    <player_notes_last_timestamp>1765209881</player_notes_last_timestamp>
+    <player_notes_last_timestamp>1766940122</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.25718</player_key>
@@ -3603,7 +3495,7 @@
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1764634070</player_notes_last_timestamp>
+    <player_notes_last_timestamp>1766951160</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.25812</player_key>
@@ -3644,7 +3536,8 @@
     </eligible_positions>
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1765145833</player_notes_last_timestamp>
+    <has_recent_player_notes>1</has_recent_player_notes>
+    <player_notes_last_timestamp>1767071248</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.25871</player_key>
@@ -3892,8 +3785,6 @@
      <position>K</position>
     </eligible_positions>
     <eligible_positions_to_add/>
-    <has_player_notes>1</has_player_notes>
-    <player_notes_last_timestamp>1764713421</player_notes_last_timestamp>
    </player>
    <player>
     <player_key>461.p.26650</player_key>
@@ -3936,49 +3827,7 @@
     <eligible_positions_to_add/>
     <has_player_notes>1</has_player_notes>
     <has_recent_player_notes>1</has_recent_player_notes>
-    <player_notes_last_timestamp>1765224177</player_notes_last_timestamp>
-   </player>
-   <player>
-    <player_key>461.p.26652</player_key>
-    <player_id>26652</player_id>
-    <name>
-     <full>Cordarrelle Patterson</full>
-     <first>Cordarrelle</first>
-     <last>Patterson</last>
-     <ascii_first>Cordarrelle</ascii_first>
-     <ascii_last>Patterson</ascii_last>
-    </name>
-    <url>https://sports.yahoo.com/nfl/players/26652</url>
-    <status>NA</status>
-    <status_full>Inactive: Coach's Decision or Not on Roster</status_full>
-    <editorial_player_key>nfl.p.26652</editorial_player_key>
-    <editorial_team_key>nfl.t.23</editorial_team_key>
-    <editorial_team_full_name>Pittsburgh Steelers</editorial_team_full_name>
-    <editorial_team_abbr>Pit</editorial_team_abbr>
-    <editorial_team_url>https://sports.yahoo.com/nfl/teams/pittsburgh/</editorial_team_url>
-    <bye_weeks>
-     <week>5</week>
-    </bye_weeks>
-    <is_keeper>
-     <status></status>
-     <cost></cost>
-     <kept></kept>
-    </is_keeper>
-    <uniform_number/>
-    <display_position>RB</display_position>
-    <headshot>
-     <url>https://s.yimg.com/iu/api/res/1.2/j.YQO.dyl1l75E8zyWBN9A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09202024/26652.png</url>
-     <size>small</size>
-    </headshot>
-    <image_url>https://s.yimg.com/iu/api/res/1.2/j.YQO.dyl1l75E8zyWBN9A--~C/YXBwaWQ9eXNwb3J0cztjaD0yMzM2O2NyPTE7Y3c9MTc5MDtkeD04NTc7ZHk9MDtmaT11bGNyb3A7aD02MDtxPTEwMDt3PTQ2/https://s.yimg.com/xe/i/us/sp/v/nfl_cutout/players_l/09202024/26652.png</image_url>
-    <is_undroppable>0</is_undroppable>
-    <position_type>O</position_type>
-    <primary_position>RB</primary_position>
-    <eligible_positions>
-     <position>RB</position>
-     <position>W/R/T</position>
-    </eligible_positions>
-    <eligible_positions_to_add/>
+    <player_notes_last_timestamp>1767020639</player_notes_last_timestamp>
    </player>
   </players>
   <draft_results count="180">
@@ -5063,7 +4912,433 @@
     <player_key>461.p.31199</player_key>
    </draft_result>
   </draft_results>
-  <transactions count="199">
+  <transactions count="209">
+   <transaction>
+    <transaction_key>461.l.313501.tr.212</transaction_key>
+    <transaction_id>212</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1766929315</timestamp>
+    <players count="2">
+     <player>
+      <player_key>461.p.33538</player_key>
+      <player_id>33538</player_id>
+      <name>
+       <full>Kenneth Gainwell</full>
+       <first>Kenneth</first>
+       <last>Gainwell</last>
+       <ascii_first>Kenneth</ascii_first>
+       <ascii_last>Gainwell</ascii_last>
+      </name>
+      <editorial_team_abbr>Pit</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>461.l.313501.t.11</destination_team_key>
+       <destination_team_name>MINI YITZ</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>461.p.41052</player_key>
+      <player_id>41052</player_id>
+      <name>
+       <full>Kimani Vidal</full>
+       <first>Kimani</first>
+       <last>Vidal</last>
+       <ascii_first>Kimani</ascii_first>
+       <ascii_last>Vidal</ascii_last>
+      </name>
+      <editorial_team_abbr>LAC</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>461.l.313501.t.11</source_team_key>
+       <source_team_name>MINI YITZ</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.211</transaction_key>
+    <transaction_id>211</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1766566944</timestamp>
+    <players count="2">
+     <player>
+      <player_key>461.p.100017</player_key>
+      <player_id>100017</player_id>
+      <name>
+       <full>Patriots</full>
+       <first>Patriots</first>
+       <last/>
+       <ascii_first>Patriots</ascii_first>
+       <ascii_last/>
+      </name>
+      <editorial_team_abbr>NE</editorial_team_abbr>
+      <display_position>DEF</display_position>
+      <position_type>DT</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>461.l.313501.t.8</destination_team_key>
+       <destination_team_name>The Tatman</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>461.p.41093</player_key>
+      <player_id>41093</player_id>
+      <name>
+       <full>Will Reichard</full>
+       <first>Will</first>
+       <last>Reichard</last>
+       <ascii_first>Will</ascii_first>
+       <ascii_last>Reichard</ascii_last>
+      </name>
+      <editorial_team_abbr>Min</editorial_team_abbr>
+      <display_position>K</display_position>
+      <position_type>K</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>461.l.313501.t.8</source_team_key>
+       <source_team_name>The Tatman</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.210</transaction_key>
+    <transaction_id>210</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1766373184</timestamp>
+    <players count="2">
+     <player>
+      <player_key>461.p.34218</player_key>
+      <player_id>34218</player_id>
+      <name>
+       <full>Brock Purdy</full>
+       <first>Brock</first>
+       <last>Purdy</last>
+       <ascii_first>Brock</ascii_first>
+       <ascii_last>Purdy</ascii_last>
+      </name>
+      <editorial_team_abbr>SF</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>461.l.313501.t.8</destination_team_key>
+       <destination_team_name>The Tatman</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>461.p.32675</player_key>
+      <player_id>32675</player_id>
+      <name>
+       <full>Tua Tagovailoa</full>
+       <first>Tua</first>
+       <last>Tagovailoa</last>
+       <ascii_first>Tua</ascii_first>
+       <ascii_last>Tagovailoa</ascii_last>
+      </name>
+      <editorial_team_abbr>Mia</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>461.l.313501.t.8</source_team_key>
+       <source_team_name>The Tatman</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.209</transaction_key>
+    <transaction_id>209</transaction_id>
+    <type>drop</type>
+    <status>successful</status>
+    <timestamp>1766059883</timestamp>
+    <players count="1">
+     <player>
+      <player_key>461.p.40063</player_key>
+      <player_id>40063</player_id>
+      <name>
+       <full>Jayden Reed</full>
+       <first>Jayden</first>
+       <last>Reed</last>
+       <ascii_first>Jayden</ascii_first>
+       <ascii_last>Reed</ascii_last>
+      </name>
+      <editorial_team_abbr>GB</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>461.l.313501.t.11</source_team_key>
+       <source_team_name>MINI YITZ</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.208</transaction_key>
+    <transaction_id>208</transaction_id>
+    <type>add</type>
+    <status>successful</status>
+    <timestamp>1765961973</timestamp>
+    <players count="1">
+     <player>
+      <player_key>461.p.40063</player_key>
+      <player_id>40063</player_id>
+      <name>
+       <full>Jayden Reed</full>
+       <first>Jayden</first>
+       <last>Reed</last>
+       <ascii_first>Jayden</ascii_first>
+       <ascii_last>Reed</ascii_last>
+      </name>
+      <editorial_team_abbr>GB</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>461.l.313501.t.11</destination_team_key>
+       <destination_team_name>MINI YITZ</destination_team_name>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.207</transaction_key>
+    <transaction_id>207</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1765614945</timestamp>
+    <players count="2">
+     <player>
+      <player_key>461.p.6763</player_key>
+      <player_id>6763</player_id>
+      <name>
+       <full>Philip Rivers</full>
+       <first>Philip</first>
+       <last>Rivers</last>
+       <ascii_first>Philip</ascii_first>
+       <ascii_last>Rivers</ascii_last>
+      </name>
+      <editorial_team_abbr>Ind</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>461.l.313501.t.3</destination_team_key>
+       <destination_team_name>I WEAR MY SUNGLASSES</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>461.p.7200</player_key>
+      <player_id>7200</player_id>
+      <name>
+       <full>Aaron Rodgers</full>
+       <first>Aaron</first>
+       <last>Rodgers</last>
+       <ascii_first>Aaron</ascii_first>
+       <ascii_last>Rodgers</ascii_last>
+      </name>
+      <editorial_team_abbr>Pit</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>461.l.313501.t.3</source_team_key>
+       <source_team_name>I WEAR MY SUNGLASSES</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.206</transaction_key>
+    <transaction_id>206</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1765438431</timestamp>
+    <players count="2">
+     <player>
+      <player_key>461.p.29269</player_key>
+      <player_id>29269</player_id>
+      <name>
+       <full>Hunter Henry</full>
+       <first>Hunter</first>
+       <last>Henry</last>
+       <ascii_first>Hunter</ascii_first>
+       <ascii_last>Henry</ascii_last>
+      </name>
+      <editorial_team_abbr>NE</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>461.l.313501.t.9</destination_team_key>
+       <destination_team_name>Mifakdim</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>461.p.41865</player_key>
+      <player_id>41865</player_id>
+      <name>
+       <full>Isaac TeSlaa</full>
+       <first>Isaac</first>
+       <last>TeSlaa</last>
+       <ascii_first>Isaac</ascii_first>
+       <ascii_last>TeSlaa</ascii_last>
+      </name>
+      <editorial_team_abbr>Det</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>461.l.313501.t.9</source_team_key>
+       <source_team_name>Mifakdim</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.205</transaction_key>
+    <transaction_id>205</transaction_id>
+    <type>add</type>
+    <status>successful</status>
+    <timestamp>1765388498</timestamp>
+    <players count="1">
+     <player>
+      <player_key>461.p.41810</player_key>
+      <player_id>41810</player_id>
+      <name>
+       <full>Jaxson Dart</full>
+       <first>Jaxson</first>
+       <last>Dart</last>
+       <ascii_first>Jaxson</ascii_first>
+       <ascii_last>Dart</ascii_last>
+      </name>
+      <editorial_team_abbr>NYG</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>461.l.313501.t.1</destination_team_key>
+       <destination_team_name>Sarah's Favorite Brother</destination_team_name>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.204</transaction_key>
+    <transaction_id>204</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1765384512</timestamp>
+    <players count="2">
+     <player>
+      <player_key>461.p.41010</player_key>
+      <player_id>41010</player_id>
+      <name>
+       <full>Jaylen Wright</full>
+       <first>Jaylen</first>
+       <last>Wright</last>
+       <ascii_first>Jaylen</ascii_first>
+       <ascii_last>Wright</ascii_last>
+      </name>
+      <editorial_team_abbr>Mia</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>461.l.313501.t.1</destination_team_key>
+       <destination_team_name>Sarah's Favorite Brother</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>461.p.100028</player_key>
+      <player_id>100028</player_id>
+      <name>
+       <full>Commanders</full>
+       <first>Commanders</first>
+       <last/>
+       <ascii_first>Commanders</ascii_first>
+       <ascii_last/>
+      </name>
+      <editorial_team_abbr>Was</editorial_team_abbr>
+      <display_position>DEF</display_position>
+      <position_type>DT</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>461.l.313501.t.1</source_team_key>
+       <source_team_name>Sarah's Favorite Brother</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>461.l.313501.tr.203</transaction_key>
+    <transaction_id>203</transaction_id>
+    <type>drop</type>
+    <status>successful</status>
+    <timestamp>1765325349</timestamp>
+    <players count="1">
+     <player>
+      <player_key>461.p.40911</player_key>
+      <player_id>40911</player_id>
+      <name>
+       <full>Keon Coleman</full>
+       <first>Keon</first>
+       <last>Coleman</last>
+       <ascii_first>Keon</ascii_first>
+       <ascii_last>Coleman</ascii_last>
+      </name>
+      <editorial_team_abbr>Buf</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>461.l.313501.t.11</source_team_key>
+       <source_team_name>MINI YITZ</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
    <transaction>
     <transaction_key>461.l.313501.tr.202</transaction_key>
     <transaction_id>202</transaction_id>
@@ -5186,10 +5461,10 @@
       <player_key>461.p.100025</player_key>
       <player_id>100025</player_id>
       <name>
-       <full>San Francisco</full>
-       <first>San Francisco</first>
+       <full>49ers</full>
+       <first>49ers</first>
        <last/>
-       <ascii_first>San Francisco</ascii_first>
+       <ascii_first>49ers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>SF</editorial_team_abbr>
@@ -5237,10 +5512,10 @@
       <player_key>461.p.100028</player_key>
       <player_id>100028</player_id>
       <name>
-       <full>Washington</full>
-       <first>Washington</first>
+       <full>Commanders</full>
+       <first>Commanders</first>
        <last/>
-       <ascii_first>Washington</ascii_first>
+       <ascii_first>Commanders</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Was</editorial_team_abbr>
@@ -5258,10 +5533,10 @@
       <player_key>461.p.100024</player_key>
       <player_id>100024</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Chargers</full>
+       <first>Chargers</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Chargers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAC</editorial_team_abbr>
@@ -5318,10 +5593,10 @@
       <player_key>461.p.100027</player_key>
       <player_id>100027</player_id>
       <name>
-       <full>Tampa Bay</full>
-       <first>Tampa Bay</first>
+       <full>Buccaneers</full>
+       <first>Buccaneers</first>
        <last/>
-       <ascii_first>Tampa Bay</ascii_first>
+       <ascii_first>Buccaneers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>TB</editorial_team_abbr>
@@ -5339,10 +5614,10 @@
       <player_key>461.p.100030</player_key>
       <player_id>100030</player_id>
       <name>
-       <full>Jacksonville</full>
-       <first>Jacksonville</first>
+       <full>Jaguars</full>
+       <first>Jaguars</first>
        <last/>
-       <ascii_first>Jacksonville</ascii_first>
+       <ascii_first>Jaguars</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Jax</editorial_team_abbr>
@@ -5672,10 +5947,10 @@
       <player_key>461.p.100005</player_key>
       <player_id>100005</player_id>
       <name>
-       <full>Cleveland</full>
-       <first>Cleveland</first>
+       <full>Browns</full>
+       <first>Browns</first>
        <last/>
-       <ascii_first>Cleveland</ascii_first>
+       <ascii_first>Browns</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cle</editorial_team_abbr>
@@ -5693,10 +5968,10 @@
       <player_key>461.p.100017</player_key>
       <player_id>100017</player_id>
       <name>
-       <full>New England</full>
-       <first>New England</first>
+       <full>Patriots</full>
+       <first>Patriots</first>
        <last/>
-       <ascii_first>New England</ascii_first>
+       <ascii_first>Patriots</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>NE</editorial_team_abbr>
@@ -5753,10 +6028,10 @@
       <player_key>461.p.100015</player_key>
       <player_id>100015</player_id>
       <name>
-       <full>Miami</full>
-       <first>Miami</first>
+       <full>Dolphins</full>
+       <first>Dolphins</first>
        <last/>
-       <ascii_first>Miami</ascii_first>
+       <ascii_first>Dolphins</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Mia</editorial_team_abbr>
@@ -5774,10 +6049,10 @@
       <player_key>461.p.100034</player_key>
       <player_id>100034</player_id>
       <name>
-       <full>Houston</full>
-       <first>Houston</first>
+       <full>Texans</full>
+       <first>Texans</first>
        <last/>
-       <ascii_first>Houston</ascii_first>
+       <ascii_first>Texans</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Hou</editorial_team_abbr>
@@ -5915,10 +6190,10 @@
       <player_key>461.p.100030</player_key>
       <player_id>100030</player_id>
       <name>
-       <full>Jacksonville</full>
-       <first>Jacksonville</first>
+       <full>Jaguars</full>
+       <first>Jaguars</first>
        <last/>
-       <ascii_first>Jacksonville</ascii_first>
+       <ascii_first>Jaguars</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Jax</editorial_team_abbr>
@@ -5936,10 +6211,10 @@
       <player_key>461.p.100004</player_key>
       <player_id>100004</player_id>
       <name>
-       <full>Cincinnati</full>
-       <first>Cincinnati</first>
+       <full>Bengals</full>
+       <first>Bengals</first>
        <last/>
-       <ascii_first>Cincinnati</ascii_first>
+       <ascii_first>Bengals</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cin</editorial_team_abbr>
@@ -6077,10 +6352,10 @@
       <player_key>461.p.100024</player_key>
       <player_id>100024</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Chargers</full>
+       <first>Chargers</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Chargers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAC</editorial_team_abbr>
@@ -6098,10 +6373,10 @@
       <player_key>461.p.100001</player_key>
       <player_id>100001</player_id>
       <name>
-       <full>Atlanta</full>
-       <first>Atlanta</first>
+       <full>Falcons</full>
+       <first>Falcons</first>
        <last/>
-       <ascii_first>Atlanta</ascii_first>
+       <ascii_first>Falcons</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Atl</editorial_team_abbr>
@@ -6503,10 +6778,10 @@
       <player_key>461.p.100021</player_key>
       <player_id>100021</player_id>
       <name>
-       <full>Philadelphia</full>
-       <first>Philadelphia</first>
+       <full>Eagles</full>
+       <first>Eagles</first>
        <last/>
-       <ascii_first>Philadelphia</ascii_first>
+       <ascii_first>Eagles</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Phi</editorial_team_abbr>
@@ -6524,10 +6799,10 @@
       <player_key>461.p.100014</player_key>
       <player_id>100014</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Rams</full>
+       <first>Rams</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Rams</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAR</editorial_team_abbr>
@@ -6665,10 +6940,10 @@
       <player_key>461.p.100001</player_key>
       <player_id>100001</player_id>
       <name>
-       <full>Atlanta</full>
-       <first>Atlanta</first>
+       <full>Falcons</full>
+       <first>Falcons</first>
        <last/>
-       <ascii_first>Atlanta</ascii_first>
+       <ascii_first>Falcons</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Atl</editorial_team_abbr>
@@ -6686,10 +6961,10 @@
       <player_key>461.p.100005</player_key>
       <player_id>100005</player_id>
       <name>
-       <full>Cleveland</full>
-       <first>Cleveland</first>
+       <full>Browns</full>
+       <first>Browns</first>
        <last/>
-       <ascii_first>Cleveland</ascii_first>
+       <ascii_first>Browns</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cle</editorial_team_abbr>
@@ -6797,10 +7072,10 @@
       <player_key>461.p.100034</player_key>
       <player_id>100034</player_id>
       <name>
-       <full>Houston</full>
-       <first>Houston</first>
+       <full>Texans</full>
+       <first>Texans</first>
        <last/>
-       <ascii_first>Houston</ascii_first>
+       <ascii_first>Texans</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Hou</editorial_team_abbr>
@@ -6818,10 +7093,10 @@
       <player_key>461.p.100029</player_key>
       <player_id>100029</player_id>
       <name>
-       <full>Carolina</full>
-       <first>Carolina</first>
+       <full>Panthers</full>
+       <first>Panthers</first>
        <last/>
-       <ascii_first>Carolina</ascii_first>
+       <ascii_first>Panthers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Car</editorial_team_abbr>
@@ -7295,10 +7570,10 @@
       <player_key>461.p.100029</player_key>
       <player_id>100029</player_id>
       <name>
-       <full>Carolina</full>
-       <first>Carolina</first>
+       <full>Panthers</full>
+       <first>Panthers</first>
        <last/>
-       <ascii_first>Carolina</ascii_first>
+       <ascii_first>Panthers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Car</editorial_team_abbr>
@@ -7316,10 +7591,10 @@
       <player_key>461.p.100012</player_key>
       <player_id>100012</player_id>
       <name>
-       <full>Kansas City</full>
-       <first>Kansas City</first>
+       <full>Chiefs</full>
+       <first>Chiefs</first>
        <last/>
-       <ascii_first>Kansas City</ascii_first>
+       <ascii_first>Chiefs</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>KC</editorial_team_abbr>
@@ -7631,10 +7906,10 @@
       <player_key>461.p.100026</player_key>
       <player_id>100026</player_id>
       <name>
-       <full>Seattle</full>
-       <first>Seattle</first>
+       <full>Seahawks</full>
+       <first>Seahawks</first>
        <last/>
-       <ascii_first>Seattle</ascii_first>
+       <ascii_first>Seahawks</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Sea</editorial_team_abbr>
@@ -7652,10 +7927,10 @@
       <player_key>461.p.100028</player_key>
       <player_id>100028</player_id>
       <name>
-       <full>Washington</full>
-       <first>Washington</first>
+       <full>Commanders</full>
+       <first>Commanders</first>
        <last/>
-       <ascii_first>Washington</ascii_first>
+       <ascii_first>Commanders</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Was</editorial_team_abbr>
@@ -7874,10 +8149,10 @@
       <player_key>461.p.100005</player_key>
       <player_id>100005</player_id>
       <name>
-       <full>Cleveland</full>
-       <first>Cleveland</first>
+       <full>Browns</full>
+       <first>Browns</first>
        <last/>
-       <ascii_first>Cleveland</ascii_first>
+       <ascii_first>Browns</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cle</editorial_team_abbr>
@@ -7895,10 +8170,10 @@
       <player_key>461.p.100024</player_key>
       <player_id>100024</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Chargers</full>
+       <first>Chargers</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Chargers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAC</editorial_team_abbr>
@@ -7946,10 +8221,10 @@
       <player_key>461.p.100021</player_key>
       <player_id>100021</player_id>
       <name>
-       <full>Philadelphia</full>
-       <first>Philadelphia</first>
+       <full>Eagles</full>
+       <first>Eagles</first>
        <last/>
-       <ascii_first>Philadelphia</ascii_first>
+       <ascii_first>Eagles</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Phi</editorial_team_abbr>
@@ -8330,10 +8605,10 @@
       <player_key>461.p.100009</player_key>
       <player_id>100009</player_id>
       <name>
-       <full>Green Bay</full>
-       <first>Green Bay</first>
+       <full>Packers</full>
+       <first>Packers</first>
        <last/>
-       <ascii_first>Green Bay</ascii_first>
+       <ascii_first>Packers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>GB</editorial_team_abbr>
@@ -8351,10 +8626,10 @@
       <player_key>461.p.100011</player_key>
       <player_id>100011</player_id>
       <name>
-       <full>Indianapolis</full>
-       <first>Indianapolis</first>
+       <full>Colts</full>
+       <first>Colts</first>
        <last/>
-       <ascii_first>Indianapolis</ascii_first>
+       <ascii_first>Colts</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Ind</editorial_team_abbr>
@@ -8417,7 +8692,7 @@
        <ascii_first>Joshua</ascii_first>
        <ascii_last>Karty</ascii_last>
       </name>
-      <editorial_team_abbr>LAR</editorial_team_abbr>
+      <editorial_team_abbr>Ari</editorial_team_abbr>
       <display_position>K</display_position>
       <position_type>K</position_type>
       <transaction_data>
@@ -8432,10 +8707,10 @@
       <player_key>461.p.100005</player_key>
       <player_id>100005</player_id>
       <name>
-       <full>Cleveland</full>
-       <first>Cleveland</first>
+       <full>Browns</full>
+       <first>Browns</first>
        <last/>
-       <ascii_first>Cleveland</ascii_first>
+       <ascii_first>Browns</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cle</editorial_team_abbr>
@@ -8492,10 +8767,10 @@
       <player_key>461.p.100024</player_key>
       <player_id>100024</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Chargers</full>
+       <first>Chargers</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Chargers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAC</editorial_team_abbr>
@@ -8513,10 +8788,10 @@
       <player_key>461.p.100001</player_key>
       <player_id>100001</player_id>
       <name>
-       <full>Atlanta</full>
-       <first>Atlanta</first>
+       <full>Falcons</full>
+       <first>Falcons</first>
        <last/>
-       <ascii_first>Atlanta</ascii_first>
+       <ascii_first>Falcons</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Atl</editorial_team_abbr>
@@ -8645,10 +8920,10 @@
       <player_key>461.p.100014</player_key>
       <player_id>100014</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Rams</full>
+       <first>Rams</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Rams</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAR</editorial_team_abbr>
@@ -8918,10 +9193,10 @@
       <player_key>461.p.100004</player_key>
       <player_id>100004</player_id>
       <name>
-       <full>Cincinnati</full>
-       <first>Cincinnati</first>
+       <full>Bengals</full>
+       <first>Bengals</first>
        <last/>
-       <ascii_first>Cincinnati</ascii_first>
+       <ascii_first>Bengals</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cin</editorial_team_abbr>
@@ -8939,10 +9214,10 @@
       <player_key>461.p.100013</player_key>
       <player_id>100013</player_id>
       <name>
-       <full>Las Vegas</full>
-       <first>Las Vegas</first>
+       <full>Raiders</full>
+       <first>Raiders</first>
        <last/>
-       <ascii_first>Las Vegas</ascii_first>
+       <ascii_first>Raiders</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LV</editorial_team_abbr>
@@ -9251,7 +9526,7 @@
        <ascii_first>Matt</ascii_first>
        <ascii_last>Gay</ascii_last>
       </name>
-      <editorial_team_abbr>SF</editorial_team_abbr>
+      <editorial_team_abbr>Was</editorial_team_abbr>
       <display_position>K</display_position>
       <position_type>K</position_type>
       <transaction_data>
@@ -9356,10 +9631,10 @@
       <player_key>461.p.100011</player_key>
       <player_id>100011</player_id>
       <name>
-       <full>Indianapolis</full>
-       <first>Indianapolis</first>
+       <full>Colts</full>
+       <first>Colts</first>
        <last/>
-       <ascii_first>Indianapolis</ascii_first>
+       <ascii_first>Colts</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Ind</editorial_team_abbr>
@@ -9377,10 +9652,10 @@
       <player_key>461.p.100003</player_key>
       <player_id>100003</player_id>
       <name>
-       <full>Chicago</full>
-       <first>Chicago</first>
+       <full>Bears</full>
+       <first>Bears</first>
        <last/>
-       <ascii_first>Chicago</ascii_first>
+       <ascii_first>Bears</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Chi</editorial_team_abbr>
@@ -9641,10 +9916,10 @@
       <player_key>461.p.100001</player_key>
       <player_id>100001</player_id>
       <name>
-       <full>Atlanta</full>
-       <first>Atlanta</first>
+       <full>Falcons</full>
+       <first>Falcons</first>
        <last/>
-       <ascii_first>Atlanta</ascii_first>
+       <ascii_first>Falcons</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Atl</editorial_team_abbr>
@@ -9662,10 +9937,10 @@
       <player_key>461.p.100009</player_key>
       <player_id>100009</player_id>
       <name>
-       <full>Green Bay</full>
-       <first>Green Bay</first>
+       <full>Packers</full>
+       <first>Packers</first>
        <last/>
-       <ascii_first>Green Bay</ascii_first>
+       <ascii_first>Packers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>GB</editorial_team_abbr>
@@ -9743,10 +10018,10 @@
       <player_key>461.p.100003</player_key>
       <player_id>100003</player_id>
       <name>
-       <full>Chicago</full>
-       <first>Chicago</first>
+       <full>Bears</full>
+       <first>Bears</first>
        <last/>
-       <ascii_first>Chicago</ascii_first>
+       <ascii_first>Bears</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Chi</editorial_team_abbr>
@@ -9764,10 +10039,10 @@
       <player_key>461.p.100002</player_key>
       <player_id>100002</player_id>
       <name>
-       <full>Buffalo</full>
-       <first>Buffalo</first>
+       <full>Bills</full>
+       <first>Bills</first>
        <last/>
-       <ascii_first>Buffalo</ascii_first>
+       <ascii_first>Bills</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Buf</editorial_team_abbr>
@@ -9824,10 +10099,10 @@
       <player_key>461.p.100005</player_key>
       <player_id>100005</player_id>
       <name>
-       <full>Cleveland</full>
-       <first>Cleveland</first>
+       <full>Browns</full>
+       <first>Browns</first>
        <last/>
-       <ascii_first>Cleveland</ascii_first>
+       <ascii_first>Browns</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cle</editorial_team_abbr>
@@ -10109,10 +10384,10 @@
       <player_key>461.p.100017</player_key>
       <player_id>100017</player_id>
       <name>
-       <full>New England</full>
-       <first>New England</first>
+       <full>Patriots</full>
+       <first>Patriots</first>
        <last/>
-       <ascii_first>New England</ascii_first>
+       <ascii_first>Patriots</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>NE</editorial_team_abbr>
@@ -10130,10 +10405,10 @@
       <player_key>461.p.100030</player_key>
       <player_id>100030</player_id>
       <name>
-       <full>Jacksonville</full>
-       <first>Jacksonville</first>
+       <full>Jaguars</full>
+       <first>Jaguars</first>
        <last/>
-       <ascii_first>Jacksonville</ascii_first>
+       <ascii_first>Jaguars</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Jax</editorial_team_abbr>
@@ -10373,10 +10648,10 @@
       <player_key>461.p.100013</player_key>
       <player_id>100013</player_id>
       <name>
-       <full>Las Vegas</full>
-       <first>Las Vegas</first>
+       <full>Raiders</full>
+       <first>Raiders</first>
        <last/>
-       <ascii_first>Las Vegas</ascii_first>
+       <ascii_first>Raiders</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LV</editorial_team_abbr>
@@ -10394,10 +10669,10 @@
       <player_key>461.p.100026</player_key>
       <player_id>100026</player_id>
       <name>
-       <full>Seattle</full>
-       <first>Seattle</first>
+       <full>Seahawks</full>
+       <first>Seahawks</first>
        <last/>
-       <ascii_first>Seattle</ascii_first>
+       <ascii_first>Seahawks</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Sea</editorial_team_abbr>
@@ -10502,7 +10777,7 @@
        <ascii_first>Joshua</ascii_first>
        <ascii_last>Karty</ascii_last>
       </name>
-      <editorial_team_abbr>LAR</editorial_team_abbr>
+      <editorial_team_abbr>Ari</editorial_team_abbr>
       <display_position>K</display_position>
       <position_type>K</position_type>
       <transaction_data>
@@ -10688,10 +10963,10 @@
       <player_key>461.p.100009</player_key>
       <player_id>100009</player_id>
       <name>
-       <full>Green Bay</full>
-       <first>Green Bay</first>
+       <full>Packers</full>
+       <first>Packers</first>
        <last/>
-       <ascii_first>Green Bay</ascii_first>
+       <ascii_first>Packers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>GB</editorial_team_abbr>
@@ -10709,10 +10984,10 @@
       <player_key>461.p.100034</player_key>
       <player_id>100034</player_id>
       <name>
-       <full>Houston</full>
-       <first>Houston</first>
+       <full>Texans</full>
+       <first>Texans</first>
        <last/>
-       <ascii_first>Houston</ascii_first>
+       <ascii_first>Texans</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Hou</editorial_team_abbr>
@@ -11234,7 +11509,7 @@
        <ascii_first>Joshua</ascii_first>
        <ascii_last>Karty</ascii_last>
       </name>
-      <editorial_team_abbr>LAR</editorial_team_abbr>
+      <editorial_team_abbr>Ari</editorial_team_abbr>
       <display_position>K</display_position>
       <position_type>K</position_type>
       <transaction_data>
@@ -11915,10 +12190,10 @@
       <player_key>461.p.100034</player_key>
       <player_id>100034</player_id>
       <name>
-       <full>Houston</full>
-       <first>Houston</first>
+       <full>Texans</full>
+       <first>Texans</first>
        <last/>
-       <ascii_first>Houston</ascii_first>
+       <ascii_first>Texans</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Hou</editorial_team_abbr>
@@ -11936,10 +12211,10 @@
       <player_key>461.p.100024</player_key>
       <player_id>100024</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Chargers</full>
+       <first>Chargers</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Chargers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAC</editorial_team_abbr>
@@ -11966,10 +12241,10 @@
       <player_key>461.p.100024</player_key>
       <player_id>100024</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Chargers</full>
+       <first>Chargers</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Chargers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAC</editorial_team_abbr>
@@ -11987,10 +12262,10 @@
       <player_key>461.p.100009</player_key>
       <player_id>100009</player_id>
       <name>
-       <full>Green Bay</full>
-       <first>Green Bay</first>
+       <full>Packers</full>
+       <first>Packers</first>
        <last/>
-       <ascii_first>Green Bay</ascii_first>
+       <ascii_first>Packers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>GB</editorial_team_abbr>
@@ -12017,10 +12292,10 @@
       <player_key>461.p.100030</player_key>
       <player_id>100030</player_id>
       <name>
-       <full>Jacksonville</full>
-       <first>Jacksonville</first>
+       <full>Jaguars</full>
+       <first>Jaguars</first>
        <last/>
-       <ascii_first>Jacksonville</ascii_first>
+       <ascii_first>Jaguars</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Jax</editorial_team_abbr>
@@ -12038,10 +12313,10 @@
       <player_key>461.p.100022</player_key>
       <player_id>100022</player_id>
       <name>
-       <full>Arizona</full>
-       <first>Arizona</first>
+       <full>Cardinals</full>
+       <first>Cardinals</first>
        <last/>
-       <ascii_first>Arizona</ascii_first>
+       <ascii_first>Cardinals</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Ari</editorial_team_abbr>
@@ -12221,10 +12496,10 @@
       <player_key>461.p.100026</player_key>
       <player_id>100026</player_id>
       <name>
-       <full>Seattle</full>
-       <first>Seattle</first>
+       <full>Seahawks</full>
+       <first>Seahawks</first>
        <last/>
-       <ascii_first>Seattle</ascii_first>
+       <ascii_first>Seahawks</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Sea</editorial_team_abbr>
@@ -12242,10 +12517,10 @@
       <player_key>461.p.100011</player_key>
       <player_id>100011</player_id>
       <name>
-       <full>Indianapolis</full>
-       <first>Indianapolis</first>
+       <full>Colts</full>
+       <first>Colts</first>
        <last/>
-       <ascii_first>Indianapolis</ascii_first>
+       <ascii_first>Colts</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Ind</editorial_team_abbr>
@@ -12455,10 +12730,10 @@
       <player_key>461.p.100009</player_key>
       <player_id>100009</player_id>
       <name>
-       <full>Green Bay</full>
-       <first>Green Bay</first>
+       <full>Packers</full>
+       <first>Packers</first>
        <last/>
-       <ascii_first>Green Bay</ascii_first>
+       <ascii_first>Packers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>GB</editorial_team_abbr>
@@ -12476,10 +12751,10 @@
       <player_key>461.p.100014</player_key>
       <player_id>100014</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Rams</full>
+       <first>Rams</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Rams</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAR</editorial_team_abbr>
@@ -12659,10 +12934,10 @@
       <player_key>461.p.100028</player_key>
       <player_id>100028</player_id>
       <name>
-       <full>Washington</full>
-       <first>Washington</first>
+       <full>Commanders</full>
+       <first>Commanders</first>
        <last/>
-       <ascii_first>Washington</ascii_first>
+       <ascii_first>Commanders</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Was</editorial_team_abbr>
@@ -12680,10 +12955,10 @@
       <player_key>461.p.100026</player_key>
       <player_id>100026</player_id>
       <name>
-       <full>Seattle</full>
-       <first>Seattle</first>
+       <full>Seahawks</full>
+       <first>Seahawks</first>
        <last/>
-       <ascii_first>Seattle</ascii_first>
+       <ascii_first>Seahawks</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Sea</editorial_team_abbr>
@@ -12761,10 +13036,10 @@
       <player_key>461.p.100011</player_key>
       <player_id>100011</player_id>
       <name>
-       <full>Indianapolis</full>
-       <first>Indianapolis</first>
+       <full>Colts</full>
+       <first>Colts</first>
        <last/>
-       <ascii_first>Indianapolis</ascii_first>
+       <ascii_first>Colts</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Ind</editorial_team_abbr>
@@ -12782,10 +13057,10 @@
       <player_key>461.p.100004</player_key>
       <player_id>100004</player_id>
       <name>
-       <full>Cincinnati</full>
-       <first>Cincinnati</first>
+       <full>Bengals</full>
+       <first>Bengals</first>
        <last/>
-       <ascii_first>Cincinnati</ascii_first>
+       <ascii_first>Bengals</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cin</editorial_team_abbr>
@@ -12842,10 +13117,10 @@
       <player_key>461.p.100026</player_key>
       <player_id>100026</player_id>
       <name>
-       <full>Seattle</full>
-       <first>Seattle</first>
+       <full>Seahawks</full>
+       <first>Seahawks</first>
        <last/>
-       <ascii_first>Seattle</ascii_first>
+       <ascii_first>Seahawks</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Sea</editorial_team_abbr>
@@ -12863,10 +13138,10 @@
       <player_key>461.p.100034</player_key>
       <player_id>100034</player_id>
       <name>
-       <full>Houston</full>
-       <first>Houston</first>
+       <full>Texans</full>
+       <first>Texans</first>
        <last/>
-       <ascii_first>Houston</ascii_first>
+       <ascii_first>Texans</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Hou</editorial_team_abbr>
@@ -13157,10 +13432,10 @@
       <player_key>461.p.100014</player_key>
       <player_id>100014</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Rams</full>
+       <first>Rams</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Rams</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAR</editorial_team_abbr>
@@ -13178,10 +13453,10 @@
       <player_key>461.p.100028</player_key>
       <player_id>100028</player_id>
       <name>
-       <full>Washington</full>
-       <first>Washington</first>
+       <full>Commanders</full>
+       <first>Commanders</first>
        <last/>
-       <ascii_first>Washington</ascii_first>
+       <ascii_first>Commanders</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Was</editorial_team_abbr>
@@ -13370,10 +13645,10 @@
       <player_key>461.p.100004</player_key>
       <player_id>100004</player_id>
       <name>
-       <full>Cincinnati</full>
-       <first>Cincinnati</first>
+       <full>Bengals</full>
+       <first>Bengals</first>
        <last/>
-       <ascii_first>Cincinnati</ascii_first>
+       <ascii_first>Bengals</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Cin</editorial_team_abbr>
@@ -13391,10 +13666,10 @@
       <player_key>461.p.100024</player_key>
       <player_id>100024</player_id>
       <name>
-       <full>Los Angeles</full>
-       <first>Los Angeles</first>
+       <full>Chargers</full>
+       <first>Chargers</first>
        <last/>
-       <ascii_first>Los Angeles</ascii_first>
+       <ascii_first>Chargers</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>LAC</editorial_team_abbr>
@@ -13532,10 +13807,10 @@
       <player_key>461.p.100022</player_key>
       <player_id>100022</player_id>
       <name>
-       <full>Arizona</full>
-       <first>Arizona</first>
+       <full>Cardinals</full>
+       <first>Cardinals</first>
        <last/>
-       <ascii_first>Arizona</ascii_first>
+       <ascii_first>Cardinals</ascii_first>
        <ascii_last/>
       </name>
       <editorial_team_abbr>Ari</editorial_team_abbr>
@@ -13691,7 +13966,7 @@
        <ascii_first>Matt</ascii_first>
        <ascii_last>Gay</ascii_last>
       </name>
-      <editorial_team_abbr>SF</editorial_team_abbr>
+      <editorial_team_abbr>Was</editorial_team_abbr>
       <display_position>K</display_position>
       <position_type>K</position_type>
       <transaction_data>
@@ -13721,5 +13996,5 @@
   </transactions>
  </league>
 </fantasy_content>
-<!-- fantasy-sports-api- -public-production-bf1-597d84f949-9mx5q Tue Dec  9 09:42:50 UTC 2025 -->
+<!-- fantasy-sports-api- -public-production-bf1-79868644d7-nlrkd Tue Dec 30 12:15:09 UTC 2025 -->
 

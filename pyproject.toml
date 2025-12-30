@@ -1,0 +1,9 @@
+[project]
+name = "yahoofantasydownloader"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32.5",
+    "untangle>=1.2.1",
+]
