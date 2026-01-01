@@ -325,8 +325,8 @@ atf_league_ids = {
         "2025": {
             "league": "742133",
             "gameid": "461",
-            "startweek": 11,
-            "games":14 
+            "startweek": 14,
+            "games":17 
         }
 }
 
@@ -340,8 +340,8 @@ tgm_league_ids = {
         "2025": {
             "league": "313501",
             "gameid": "461",
-            "startweek": 11,  
-            "games":14 
+            "startweek": 14,  
+            "games":17 
         }
 }
 
