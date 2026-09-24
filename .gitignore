@@ -1,5 +1,12 @@
 node_modules
 
+# Secrets / tokens (see ../_secrets-to-migrate/ for backup)
+credentials.json
+credpy.txt
+token.json
+refresh.txt
 
-
+# Cached API response dumps
+nflcodes.xml
+resp.xml
 
